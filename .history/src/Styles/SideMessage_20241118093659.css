@@ -1,0 +1,42 @@
+.sideMessage {
+  position: fixed;
+  left: 0; /* Position the element at the left side of the screen */
+  top: 5%;
+  background-color: #696868;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  padding: 16px;
+  z-index: 1000;
+  animation: slideIn 1s ease-out; /* Adjusted duration for a slower animation */
+  display: flex;
+  gap: 20px;
+}
+
+.sideMessageImage {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.sideMessageText {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+@keyframes slideIn {
+  from {
+    left: -500px; /* Start from off-screen to the left */
+  }
+  to {
+    left: 0; /* End at the left edge of the page */
+  }
+}
+
