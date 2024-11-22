@@ -1,0 +1,1631 @@
+
+@media (max-width: 500px) {
+  body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+    margin: 20px;
+  }
+
+  header .mobileScreenPortfolioLogo svg {
+    width: 78px;
+    height: 100px;
+  }
+
+
+  #toggleMenuIcon {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--Dominant-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: top 0.3s;
+    z-index: 1000;
+  }
+
+  header #toggleMenuIcon::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(-5px);
+    transition: 0.2s;
+  }
+
+  header #toggleMenuIcon::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(5px);
+    transition: 0.2s;
+  }
+
+  #toggleMenuIcon.active::before {
+    transform: translateY(0px) rotate(45deg);
+  }
+
+  #toggleMenuIcon.active::after {
+    transform: translateY(0px) rotate(-45deg);
+  }
+
+  #firstSideBarContainer {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    background-color: wheat;
+    transition: 0.5s;
+    z-index: 1000;
+  }
+
+  #firstSideBarContainer.active {
+    left: 0;
+  }
+
+  .firstSideBarContainer {
+    position: relative;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  ul.sideBar {
+    margin: 40px 0 0 10px;
+  }
+
+  #firstSideBarContainer li {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  #firstSideBarContainer li:hover {
+    background-color: red;
+    color: black;
+  }
+
+  #firstSideBarContainer li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    background-color: inherit;
+    font-weight: 500;
+  }
+
+  header #navList {
+    display: none;
+  }
+
+  header .mobileScreenPortfolioLogo svg:hover,
+  :focus {
+    fill: yellow;
+    background-color: white;
+  }
+
+  body main {
+    font-family: arial;
+  }
+
+  .greetingTextContainer .hi {
+    position: relative;
+    right: 8rem;
+
+    margin: 27px 0 0 0;
+  }
+
+  .greetingTextContainer .namedPerson {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    max-width: 200px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .greetingContainer .greetingTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.greetingTextContainer h2 {
+    margin: 0 0 20px;
+    font-size: 15px;
+  }
+
+  .greetingTextContainer .briefIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 15px;
+    font-size: 1.4rem;
+  }
+
+  .greetingContainer .btnContainer {
+    margin: 0 0 3rem 0;
+    padding: 15px;
+  }
+
+  .greetingContainer .btnContainer button {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+
+  button.viewWorkBtn a,
+  .btnContainer button a {
+    font-size: 13px;
+  }
+
+  section.introductionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .introductionContainer .subTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .introductionContainer .mobileScreenIntroEl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .introductionContainer .developerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  #developerImageOnMobile {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  div.aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 0;
+  }
+
+  .aboutMeContainer .introHeaderText {
+    display: flex;
+    font-size: 1.3rem;
+    margin: 1.5rem 0 10px 0;
+  }
+
+  .aboutMeContainer .aboutMeEl {
+    margin: 12px 0 1rem 0;
+  }
+
+  .aboutMeContainer .aboutGoals {
+    word-spacing: 2.8px;
+    line-height: 1.35;
+  }
+
+  span.figurePlusTop {
+    position: relative;
+    top: -10rem;
+    left: 15px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  span.figurePlusButtom1 {
+    position: relative;
+    top: 9.8rem;
+    right: -20px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  span.figurePlusButtom {
+    position: relative;
+    top: 10rem;
+    right: 15px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  span.figurePlusTop2 {
+    position: relative;
+    top: -8.8rem;
+    right: 29px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .experienceEl .experienceDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  div.experienceDescriptionContainer h3 {
+    text-align: center;
+    margin: 60px 0 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .experienceDescriptionContainer .experienceDescription {
+    text-align: center;
+    font-size: 1.4rem;
+    word-spacing: 5px;
+  }
+  div#projectMainContainer {
+    display: block;
+    padding: 0;
+  }
+
+  .courseInfo .subHeader>h3,
+  .featuredProjectHeadcaption>h3,
+  .projectHeader h2,
+  .contactHeadCaptionMobile>h2,
+  .mobileFormContainer {
+    margin: 30px 0 10px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  div.firstProjectBody, div.secondProjectBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 0 40px;
+}
+
+  div.contactHeadCaptionMobile>h2 {
+    margin: 30px 0 10px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+
+  .subject,
+  .contactHeadCaptionMobile .contactPEl {
+    text-align: center;
+    margin: 0;
+    padding: 10px 20px;
+    word-spacing: 2.8px;
+  }
+
+  p.skill {
+    text-align: center;
+    font-size: 1.4rem;
+    word-spacing: 5px;
+  }
+
+  .courseInfo .mobileScreenLogo {
+    min-width: 250px;
+    max-width: 294px;
+    min-height: 200px;
+    object-fit: contain;
+  }
+
+  .courseContainer .courseInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.courseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 50px; */
+    margin: 40px 47px 0 30px;
+    gap: 7rem;
+}
+
+  figure .logo.mobileScreenLogo {
+    display: flex;
+    width: 291px;
+    padding: 0 14px;
+    height: auto;
+    transform: rotate(-0.7deg);
+    transform: skewX(-8deg);
+    transform: skew(12deg, -2deg);
+    object-fit: cover;
+  }
+
+  .courseContainer .courseImgContainer {
+    display: flex;
+  }
+
+  section.featuredProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .captionContainer,
+  .subFeaturedProjectContainer .aboutFeaturedWork,
+  .otherProjectsContainer .projectHeaderContainer {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    word-spacing: 2.8px;
+  }
+
+  div.featuredProjectHeadcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+
+  .featuredProjectHeadcaption .briefHeadNote,
+  .projectHeader>p {
+    margin: 0 0 20px 0;
+    font-size: 1.3rem;
+  }
+
+  div.subFeaturedProjectContainer .buttons>button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  div.subFeaturedProjectContainer .buttons>button a {
+    color: white;
+    text-decoration: none;
+  }
+
+  div.subFeaturedProjectContainer .buttons>button:first-child {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: var(--Dominant-color);
+  }
+
+  div.subFeaturedProjectContainer .buttons>button:last-child {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: black;
+  }
+
+  div.firstProjectContainer,
+  .secondProjectContainer,
+  .thirdProjectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 7rem;
+  }
+
+  .firstprojectTitle, .secondprojectTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  div.firstProjectContainer p,
+  .secondProjectContainer p,
+  .thirdProjectContainer p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.1rem; */
+    padding: 0 20px;
+    text-align: center;
+  }
+  span {
+    transform: none;
+  }
+
+  .firstProjectContainer img {
+    width: 330px;
+    height: auto;
+    object-fit: contain;
+  }
+
+
+  .featuredProject .subFeaturedProjectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 16px "Arial";
+    padding: 10px;
+    gap: 1rem;
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showDesktop {
+    display: block;
+    border: 1px solid rgb(228, 38, 38);
+    width: 272px;
+    height: auto;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showMobile {
+    display: block;
+    border: 1px solid rgb(228, 38, 38);
+    max-width: 100px;
+    min-height: 200px;
+    max-height: 210px;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+  }
+
+  .subFeaturedProjectContainer .deviceLayout {
+    display: none;
+  }
+
+  .subFeaturedProjectContainer .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .subFeaturedProjectContainer .buttons>button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  main .otherProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.projectCarouselContainer {
+    display: none;
+  }
+
+  .projectContainer .mobileScreen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: none; */
+    min-width: 250px;
+    max-width: 350px;
+    min-height: 190px;
+    border-radius: 9px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-image: url('asset/image/WeatherApp.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #projectMainContainer button {
+    padding: 6px;
+
+  }
+
+  #projectMainContainer button a {
+    font-size: 1.3rem;
+  }
+
+
+  .secondProject img {
+    width: 330px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  div.projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .firstProjectTitleContainer, .secondProjectTitleContainer {
+    text-align: center;
+  }
+
+div.secondProjectTextContainer, div.firstProjectTextContainer {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  /* .firstProjectContainer,
+  .secondProjectContainer,
+  .thirdProjectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0rem 0 3rem 0;
+  } */
+
+  .firstProjectContainer p,
+  .secondProjectContainer p,
+  .thirdProjectContainer p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+            line-height: 1.5;
+
+  }
+
+  main .contactContainerMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactHeadCaptionMobile,
+  .mobileSendBtnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form.mobileFormContainer input {
+    max-width: 300px;
+    max-height: 38px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    min-width: 0;
+  }
+
+  .mobileTextAreaInputEl {
+    min-height: 80px;
+    min-width: 229px;
+    max-width: 300px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+
+  .mobileFormContainer>p {
+    margin: 16px 0 0 0;
+  }
+
+  .submit.mobileSubmitInputEl {
+    display: flex;
+    align-items: center;
+    margin: 16px 0 0 0;
+    height: 50px;
+    padding: 10px;
+    font-size: 19px;
+    background-color: var(--Dominant-color);
+    color: white;
+    border: none;
+    border-radius: 9px;
+  }
+
+  .mobileSendBtnContainer>button .mobileSubmitInputEl svg {
+    fill: rgb(73, 73, 197);
+  }
+
+  .firstHLine,
+  .secondHLine {
+    display: none;
+    width: 40%;
+    height: 1px;
+  }
+
+  div.socialMediaEl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 0;
+    padding: 0;
+    gap: 50px;
+  }
+
+  .mobileLogoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobileGithublogoContainer,
+  .mobileGmailLogoContainer,
+  .mobileTweetLogoContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  div#toggleThemeModeContainer {
+    position: relative;
+    display: block;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 160px;
+    background-color: #222;
+    transition: 0.5s;
+    box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+      inset 0 8px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  div#toggleThemeModeContainer.active {
+    background: #fff;
+    box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+      inset 0 2px 8px rgba(0, 0, 0, 0.1), inset 0 -4px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  div#toggleThemeModeContainer .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to bottom, #444, #222);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: inset 0 8px 40px rgba(0, 0, 0, 0.5),
+      inset 0 4px 4px rgba(255, 255, 255, 0.2),
+      inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+  }
+
+  p.indicator svg {
+    transform: translate(3px, 9%);
+    fill: white;
+    width: 35px;
+    height: 34px;
+  }
+
+  div#toggleThemeModeContainer.active .indicator svg {
+    fill: black;
+  }
+
+  div#toggleThemeModeContainer.active .indicator {
+    left: 35px;
+    background: linear-gradient(to bottom, #eaeaea, #f9f9f9);
+    box-shadow: inset 0 8px 20px rgba(0, 0, 0, 0.1),
+      inset 0 4px 4px rgba(255, 255, 255, 1),
+      inset 0 -4px 4px rgba(255, 255, 255, 1);
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .copyRightContainer p {
+    text-align: center;
+  }
+
+  .footerNav:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .socialMediaElContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .socialMediaSvgContainer li a {
+    background-color: inherit;
+  }
+
+  .socialMediaEl ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  }
+
+  div.footerNavContianer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 100px 0;
+  }
+
+#root footer {
+    margin: 6rem 0 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+}
+
+@media (min-width: 501px) and (max-width: 659px) {
+  body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+  }
+
+  .menuSvgContainer,
+  #toggleMenuIcon,
+  #firstSideBarContainer {
+    display: none;
+  }
+
+  body main {
+    font-family: arial;
+  }
+
+  header#navList,
+  .sidebar {
+    display: none;
+  }
+
+  #toggleMenuIcon {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--Dominant-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: top 0.3s;
+
+    z-index: 1000;
+  }
+
+  header #toggleMenuIcon::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(-5px);
+    transition: 0.2s;
+  }
+
+  header #toggleMenuIcon::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(5px);
+    transition: 0.2s;
+  }
+
+  #toggleMenuIcon.active::before {
+    transform: translateY(0px) rotate(45deg);
+  }
+
+  #toggleMenuIcon.active::after {
+    transform: translateY(0px) rotate(-45deg);
+  }
+
+  #firstSideBarContainer {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    background-color: wheat;
+    transition: 0.5s;
+    z-index: 1000;
+  }
+
+  #firstSideBarContainer.active {
+    left: 0;
+  }
+
+  .firstSideBarContainer {
+    position: relative;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  #firstSideBarContainer li {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  #firstSideBarContainer li:hover {
+    background-color: red;
+    color: black;
+  }
+
+  #firstSideBarContainer li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    background-color: inherit;
+    font-weight: 500;
+  }
+
+  ul.sideBar {
+    margin: 40px 0 0 15px;
+  }
+
+  .greetingTextContainer .hi {
+    position: relative;
+    right: 9rem;
+
+    margin: 27px 0 0 0;
+  }
+
+  .greetingTextContainer .namedPerson {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .greetingTextContainer .briefIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+
+  .greetingContainer .btnContainer {
+    margin: 0rem 0 3rem 0;
+  }
+
+  .greetingContainer .btnContainer button {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  button.viewWorkBtn a,
+  .btnContainer button a {
+    font-size: 15px;
+  }
+
+
+  div.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .mobileScreenIntroEl {
+    margin: 0 15px;
+  }
+
+  .aboutMeContainer {
+    margin: 0 0 0 50px;
+  }
+
+  .aboutMeContainer .introHeaderText {
+    margin: 1rem 0 10px 0;
+  }
+
+  .aboutMeContainer .aboutMeEl {
+    margin: 12px 0 1rem 0;
+  }
+
+  .aboutMeContainer .aboutGoals {
+
+    line-height: 1.37;
+    word-spacing: 2.8px;
+  }
+
+  .aboutMeContainer .aboutMeEl,
+  .aboutGoals,
+  .experienceDescription,
+  .skill,
+  .briefNote,
+  .aboutFeaturedWork,
+  .contactPEl {}
+
+  .langTechToolContainer {}
+
+  .experienceEl .experienceDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .experienceDescriptionContainer .experienceDescription {
+    text-align: center;
+    word-spacing: 2.8px;
+  }
+
+
+  main .courseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 0 0;
+    max-height: 520px;
+  }
+
+  .courseInfo .subHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .courseInfo .subHeader>h3,
+  .featuredProjectHeadcaption>h3,
+  .projectHeader h2,
+  .contactHeadCaptionMobile>h2,
+  .mobileFormContainer {
+    margin: 50px 0 10px 0;
+  }
+
+  .subject,
+  .contactHeadCaptionMobile .contactPEl {
+    text-align: center;
+    margin: 0;
+  }
+
+  img.logo.mobileScreenLogo {
+    height: auto;
+    max-width: 450px;
+    transform: rotate(-0.7deg);
+    transform: skewX(-8deg);
+    transform: skew(12deg, -2deg);
+    object-fit: cover;
+  }
+
+  .skill {
+    text-align: center;
+    min-width: 500px;
+    font: 1.2rem "Arial";
+  }
+/* 
+  .courseInfo .logo {
+    min-width: 250px;
+    min-height: 200px;
+  }
+
+  .courseContainer .courseInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courseContainer .courseImgContainer {
+    display: block;
+  } */
+
+  
+
+  section.courseContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0 50px; */
+        margin: 40px 47px 0 30px;
+        gap: 7rem;
+    }y
+
+  main .featuredProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .captionContainer,
+  .subFeaturedProjectContainer .aboutFeaturedWork,
+  .otherProjectsContainer .projectHeaderContainer {
+    text-align: center;
+    max-width: 500px;
+  }
+
+  .featuredProjectHeadcaption .briefHeadNote,
+  .projectHeader>p {
+    margin: 0 0 10px 0;
+  }
+
+  .featuredProject .subFeaturedProjectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 16px "Arial";
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showDesktop {
+    border: 1px solid black;
+    min-width: 250px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showMobile {
+    border: 1px solid black;
+    max-width: 100px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .subFeaturedProjectContainer .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .subFeaturedProjectContainer .buttons>button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  main .otherProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.projectCarouselContainer {
+    display: none;
+  }
+
+  .projectContainer .mobileScreen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid black;
+    min-width: 250px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  div.deviceLayout {
+    max-width: 560px;
+    min-width: 550px;
+  }
+
+  div#projectMainContainer {
+    display: block;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  div.projectContainer {
+    display: block;
+    padding-bottom: 8rem;
+  }
+
+  .firstprojectTitle, .secondprojectTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .firstProject.container p,
+  .secondProject.container p,
+  .thirdProject.container p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .contactContainerMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactHeadCaptionMobile,
+  .mobileSendBtnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileFormContainer input {
+
+    max-width: 239px;
+    max-height: 50px;
+    border-radius: 5px;
+  }
+
+  .mobileTextAreaInputEl {
+    min-height: 80px;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+
+  .mobileFormContainer>p {
+    margin: 16px 0 0 0;
+  }
+
+  .mobileSubmitInputEl {
+    margin: 16px 0 0 0;
+    width: 100px;
+    max-width: 120px;
+    height: 35px;
+    font-size: 19px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 9px;
+  }
+
+  .mobileLogoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobileGithublogoContainer,
+  .mobileGmailLogoContainer,
+  .mobileTweetLogoContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .socialMediaEl ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .socialMediaSvgContainer li a {
+    background-color: inherit;
+  }
+
+  .firstHLine,
+  .secondHLine {
+    display: none;
+    width: 40%;
+    height: 1px;
+  }
+}
+
+@media (min-width: 660px) and (max-width: 768px) {
+  body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+  }
+
+  .menuSvgContainer,
+  #toggleMenuIcon,
+  #firstSideBarContainer {
+    display: none;
+  }
+
+  body main {
+    font-family: arial;
+  }
+
+  #navList .sidebar {
+    display: flex;
+  }
+
+  nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    background-color: white;
+    margin: 0 30px 0 0;
+    transition: top 0.3s;
+    z-index: 1000;
+  }
+
+  nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav li {
+    height: 50px;
+    font-weight: 700;
+  }
+
+  nav a {
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  nav a:hover {
+    background-color: white;
+  }
+
+  #navList li>a {
+    text-decoration: none;
+    color: rgb(240, 14, 14);
+    background-color: transparent;
+  }
+
+  #navList li>a:hover {
+    background-color: rgb(188, 236, 15);
+  }
+
+  .greetingTextContainer .briefIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    padding: 0 15px;
+  }
+
+  .greetingContainer .btnContainer {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .greetingContainer .btnContainer button {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  button.viewWorkBtn a,
+  .btnContainer button a {
+    font-size: 16px;
+  }
+
+  button.ResumeBtn {
+    border: 1px solid white;
+  }
+
+  div.aboutMeContainer {
+    margin: 0 0 0 10px;
+  }
+
+  .aboutMeContainer .introHeaderText {
+    margin: 1rem 0 10px 0;
+  }
+
+  div.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutMeContainer .aboutMeEl {
+    margin: 12px 0 1rem 0;
+  }
+
+  .aboutMeContainer .aboutGoals {
+    font: 18px "Arial";
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+
+  .experienceEl .experienceDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .experienceDescriptionContainer .experienceDescription {
+    text-align: center;
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+  main .courseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-height: 550px;
+  }
+
+  .courseInfo .subHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .courseInfo .subHeader>h3,
+  .featuredProjectHeadcaption>h3,
+  .projectHeader h2,
+  .contactHeadCaptionMobile>h2,
+  .mobileFormContainer {
+    margin: 50px 0 10px 0;
+  }
+
+  .subject,
+  .contactHeadCaptionMobile .contactPEl {
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+  .skill {
+    text-align: center;
+    min-width: 500px;
+    font: 16px "Arial";
+  }
+
+  .courseInfo .logo {
+    min-width: 250px;
+    min-height: 200px;
+  }
+
+  .courseContainer .courseInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courseContainer .courseImgContainer {
+    display: block;
+  }
+
+  main .featuredProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .captionContainer,
+  .subFeaturedProjectContainer .aboutFeaturedWork,
+  .otherProjectsContainer .projectHeaderContainer {
+    text-align: center;
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+  .featuredProjectHeadcaption .briefHeadNote,
+  .projectHeader>p {
+    margin: 0 0 10px 0;
+  }
+
+  .featuredProject .subFeaturedProjectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 16px "Arial";
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showDesktop {
+    border: 1px solid black;
+    min-width: 250px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showMobile {
+    border: 1px solid black;
+    max-width: 100px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .subFeaturedProjectContainer .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .subFeaturedProjectContainer .buttons>button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  div#projectMainContainer {
+    display: block;
+  }
+
+  .socialMediaSvgContainer li a {
+    background-color: inherit;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  div.projectContainer {
+    display: block;
+    padding-bottom: 8rem;
+  }
+
+  .firstprojectTitle, .secondprojectTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  main .otherProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.projectCarouselContainer {
+    display: none;
+  }
+
+  div.projectContainer .mobileScreen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid black;
+    min-width: 250px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  div.projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .firstProject.container p,
+  .secondProject.container p,
+  .thirdProject.container p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .contactContainerMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactHeadCaptionMobile,
+  .mobileSendBtnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileFormContainer input {
+    max-width: 239px;
+    max-height: 50px;
+    border-radius: 5px;
+  }
+
+  .mobileTextAreaInputEl {
+    min-height: 80px;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+
+  .mobileFormContainer>p {
+    margin: 16px 0 0 0;
+  }
+
+  .mobileSubmitInputEl {
+    margin: 16px 0 0 0;
+    width: 100px;
+    max-width: 120px;
+    height: 35px;
+    font-size: 19px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 9px;
+  }
+
+  .mobileLogoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobileGithublogoContainer,
+  .mobileGmailLogoContainer,
+  .mobileTweetLogoContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
