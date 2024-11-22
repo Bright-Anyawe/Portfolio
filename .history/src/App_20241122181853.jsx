@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 
 import { Header } from "./Components/Header";
-// import SideMessage from "./Components/SideMessage.jsx";
+import SideMessage from "/Components/ideMessage.jsx";
 import { Greeting } from "./Components/HeroSection";
 import { Experience } from "./Components/Experience";
 import { FeaturedProject } from "./Components/FeaturedProject";
