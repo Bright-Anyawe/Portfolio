@@ -25,12 +25,12 @@ a {
 div {
   animation: CssscrollReveal ease-in-out both;
   animation-timeline: view();
-  animation-range: entry 50% cover 20%;
+  animation-range: entry 50% cover 10%;
 }
 
 @keyframes CssscrollReveal {
   from {
-    opacity: 0;
+    opacity: 0.2;
     transform: translateY(100px);
   }
 
@@ -158,6 +158,19 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: 8rem;
+  max-height: 0; /* Collapsed state */
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.projectContainer {
+  
+}
+
+.projectContainer.visible {
+  max-height: 1000px; /* Adjust based on expected content height */
+  opacity: 1;
 }
 
 .firstProjectContainer, .secondProjectContainer {

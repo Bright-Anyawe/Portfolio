@@ -8,7 +8,9 @@ const handleOpenProject = () => {
   const toggle = !projectVisible;
   setProjectVisible(toggle);
 
-  downArrowRef.current.style.transform = toggle ? "rotate(180deg)" : "rotate(0deg)";
+  downArrowRef.current.style.transform = toggle
+    ? "rotate(180deg)"
+    : "rotate(0deg)";
 };
   return (
     <>

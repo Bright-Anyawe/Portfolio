@@ -8,7 +8,9 @@ const handleOpenProject = () => {
   const toggle = !projectVisible;
   setProjectVisible(toggle);
 
-  downArrowRef.current.style.transform = toggle ? "rotate(180deg)" : "rotate(0deg)";
+  downArrowRef.current.style.transform = toggle
+    ? "rotate(180deg)"
+    : "rotate(0deg)";
 };
   return (
     <>
@@ -40,7 +42,7 @@ const handleOpenProject = () => {
         </div>
         <div
           id="projectMainContainer"
-          style={{ transition: projectVisible ? "10s ease" : null }}
+  className={`projectContainer ${projectVisible ? "visible" : ""}`}
         >
           {projectVisible ? (
             <div className="projectContainer">

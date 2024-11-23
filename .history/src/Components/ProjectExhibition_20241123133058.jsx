@@ -4,12 +4,16 @@ export const ProjectExhibition = () => {
   const [projectVisible, setProjectVisible] = useState(false);
   const downArrowRef = useRef(null)
 
-const handleOpenProject = () => {
-  const toggle = !projectVisible;
-  setProjectVisible(toggle);
 
-  downArrowRef.current.style.transform = toggle ? "rotate(180deg)" : "rotate(0deg)";
-};
+  const handleOpenProject = () => {
+    const toggle = !projectVisible;
+    setProjectVisible(toggle);
+
+    toggle
+      ? (downArrowRef.current.style.transform = "rotate(180deg)")
+      : (downArrowRef.current.style.transform = "rotate(0deg)");
+  };
+
   return (
     <>
       <section className="otherProjectsContainer">

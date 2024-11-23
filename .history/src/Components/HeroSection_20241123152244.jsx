@@ -40,7 +40,7 @@ export const Greeting = () => {
                 <a
                   download="Anyawe_Bright_Resume.pdf"
                   className="resumeLink"
-                  href="/Resume.original3.pdf"
+                  href="public/Resume.original3.pdf"
                 >
                   Resume
                 </a>

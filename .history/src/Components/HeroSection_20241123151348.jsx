@@ -23,9 +23,9 @@ export const Greeting = () => {
           <p className="briefIntro backInUp">
             Looking for someone who is dedicated and loves to help people solve
             problems with their tech skills? You are on the right site. I can
-            help you build projects, features, or websites and test your web
-            app. Look through my work and see my innovation! If you are
-            interested, I am available for hire.
+            help you build projects, features, or websites and test your web. Look through my work
+            and see my innovation! If you are interested, I am available for
+            hire.
           </p>
 
           <div className="btnContainer">
@@ -37,13 +37,7 @@ export const Greeting = () => {
 
             <button className="ResumeBtn">
               <p>
-                <a
-                  download="Anyawe_Bright_Resume.pdf"
-                  className="resumeLink"
-                  href="/Resume.original3.pdf"
-                >
-                  Resume
-                </a>
+                <a href="/assets/Resume.original3.pdf">Resume</a>
               </p>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <title></title>

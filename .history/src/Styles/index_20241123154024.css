@@ -30,7 +30,7 @@ div {
 
 @keyframes CssscrollReveal {
   from {
-    opacity: 0;
+    opacity: 0.2;
     transform: translateY(100px);
   }
 

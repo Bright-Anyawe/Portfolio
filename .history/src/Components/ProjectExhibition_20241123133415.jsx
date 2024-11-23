@@ -2,14 +2,16 @@ import { useState, useRef } from "react";
 
 export const ProjectExhibition = () => {
   const [projectVisible, setProjectVisible] = useState(false);
-  const downArrowRef = useRef(null)
+  const downArrowRef = useRef(null);
 
-const handleOpenProject = () => {
-  const toggle = !projectVisible;
-  setProjectVisible(toggle);
+  const handleOpenProject = () => {
+    const toggle = !projectVisible;
+    setProjectVisible(toggle);
 
-  downArrowRef.current.style.transform = toggle ? "rotate(180deg)" : "rotate(0deg)";
-};
+    downArrowRef.current.style.transform = toggle
+      ? "rotate(180deg)"
+      : "rotate(0deg)";
+  };
   return (
     <>
       <section className="otherProjectsContainer">
@@ -40,7 +42,7 @@ const handleOpenProject = () => {
         </div>
         <div
           id="projectMainContainer"
-          style={{ transition: projectVisible ? "10s ease" : null }}
+          className={`projectContainer ${projectVisible ? "visible" : ""}`}
         >
           {projectVisible ? (
             <div className="projectContainer">
