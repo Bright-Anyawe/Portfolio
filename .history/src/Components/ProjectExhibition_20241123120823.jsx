@@ -54,7 +54,7 @@ export const ProjectExhibition = () => {
                 </div>
                 <div className="firstProjectBody">
                   <div className="firstProject mobileScreen desktopScreen">
-                    <img src="/image copy.png" alt="E-commerce image" />
+                    <img src="/public/image copy.png" alt="E-commerce image" />
                   </div>
 
                   <div className="firstProjectTextContainer">

@@ -54,7 +54,7 @@ export const ProjectExhibition = () => {
                 </div>
                 <div className="firstProjectBody">
                   <div className="firstProject mobileScreen desktopScreen">
-                    <img src="/image copy.png" alt="E-commerce image" />
+                    <img src="/public/image copy.png" alt="E-commerce image" />
                   </div>
 
                   <div className="firstProjectTextContainer">
@@ -89,7 +89,7 @@ export const ProjectExhibition = () => {
                 </div>
                 <div className="secondProjectBody">
                   <div className="secondProject mobileScreen desktopScreen">
-                    <img src="/cv image.png" alt="Cv image" />
+                    <img src="/public/cv image.png" alt="Cv image" />
                   </div>
 
                   <div className="secondProjectTextContainer">
