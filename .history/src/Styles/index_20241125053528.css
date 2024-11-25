@@ -620,12 +620,6 @@ display: flex
   min-height: 200px;
 }
 
-.showDesktop {
-  height: 192px;
-  width: 300px;
-  border-radius: 10px;
-}
-
 .desktopImageContainer:hover,
 .mobileImageContainer:hover {
   -webkit-animation: kenburns-bottom 5s ease-out both;
@@ -877,7 +871,7 @@ textarea {
 }
 
 footer {
-      margin: 6rem 0 90px 0;
+      margin: 6rem 0 50px 0;
     position: relative;
     overflow: hidden;
 }

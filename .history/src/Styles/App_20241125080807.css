@@ -1332,7 +1332,7 @@
   }
 
   nav {
-    position: relative;
+    position: none;
     right: 0;
     top: 0;
     background-color: transparent;

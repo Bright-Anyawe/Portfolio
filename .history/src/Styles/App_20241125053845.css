@@ -833,7 +833,7 @@
   }
 }
 
-@media (min-width: 501px) and (max-width: 659px) {
+@ media (min-width: 501px) and (max-width: 659px) {
   body header {
     display: flex;
     justify-content: space-between;
@@ -1332,7 +1332,7 @@
   }
 
   nav {
-    position: relative;
+    position: fixed;
     right: 0;
     top: 0;
     background-color: transparent;
@@ -1516,11 +1516,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: none;
+    border: 1px solid black;
     height: 250px;
     width: 380px;
     border-radius: 10px;
-
   }
 
   div.secondProjectTextContainer,
@@ -1589,15 +1588,6 @@
     font-size: 17px;
   }
 
-   div.aboutFeaturedWorkContainer {
-    display: flex
-;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-}
-
   div#projectMainContainer {
     display: block;
   }
@@ -1639,7 +1629,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    border: none;
+    border: 1px solid black;
     min-width: 250px;
     min-height: 200px;
     border-radius: 9px;

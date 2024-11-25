@@ -621,9 +621,7 @@ display: flex
 }
 
 .showDesktop {
-  height: 192px;
-  width: 300px;
-  border-radius: 10px;
+  
 }
 
 .desktopImageContainer:hover,

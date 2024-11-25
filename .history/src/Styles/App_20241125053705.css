@@ -1,3 +1,4 @@
+
 @media (max-width: 500px) {
   body header {
     display: flex;
@@ -18,9 +19,9 @@
     font-style: normal;
     font-size: 5rem;
     animation: rotate 0.7s ease-in-out both;
-    margin: 12px 0 0 30px;
-    color: var(--Dominant-color);
-  }
+        margin: 12px 0 0 30px;
+  color: var(--Dominant-color);
+}
 
   #toggleMenuIcon {
     position: fixed;
@@ -92,9 +93,9 @@
     margin: 40px 0 0 10px;
   }
 
-  #firstSideBarContainer svg {
+   #firstSideBarContainer svg {
     width: 35px;
-  }
+   }
 
   #firstSideBarContainer li {
     list-style: none;
@@ -221,11 +222,11 @@
   }
 
   #developerImageOnMobile {
-    width: 345px;
-    height: auto;
-    padding: 15px;
-    object-fit: cover;
-    border-radius: 20px;
+            width: 345px;
+        height: auto;
+        padding: 15px;
+        object-fit: cover;
+        border-radius: 20px;
     margin: 0;
   }
 
@@ -308,32 +309,32 @@
     padding: 0;
   }
 
-  .courseInfo .subHeader > h3,
-  .featuredProjectHeadcaption > h3,
+  .courseInfo .subHeader>h3,
+  .featuredProjectHeadcaption>h3,
   .projectHeader h2,
-  .contactHeadCaptionMobile > h2,
+  .contactHeadCaptionMobile>h2,
   .mobileFormContainer {
     margin: 30px 0 10px 0;
     font-size: 1.5rem;
     font-weight: 800;
   }
 
-  div.firstProjectBody,
-  div.secondProjectBody {
+  div.firstProjectBody, div.secondProjectBody {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
     padding: 0 40px;
-  }
+}
 
-  div.contactHeadCaptionMobile > h2 {
+  div.contactHeadCaptionMobile>h2 {
     margin: 30px 0 10px 0;
     font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
   }
+
 
   .subject,
   .contactHeadCaptionMobile .contactPEl {
@@ -369,7 +370,7 @@
     /* padding: 0 50px; */
     margin: 40px 47px 0 30px;
     gap: 7rem;
-  }
+}
 
   figure .logo.mobileScreenLogo {
     display: flex;
@@ -380,7 +381,8 @@
     transform: skewX(-8deg);
     transform: skew(12deg, -2deg);
     object-fit: cover;
-    border-radius: 10px;
+            border-radius: 10px;
+    
   }
 
   .courseContainer .courseImgContainer {
@@ -404,13 +406,14 @@
     word-spacing: 2.8px;
   }
 
-  div.aboutFeaturedWorkContainer {
-    display: flex;
+   div.aboutFeaturedWorkContainer {
+    display: flex
+;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-  }
+}
 
   div.featuredProjectHeadcaption {
     display: flex;
@@ -421,24 +424,24 @@
   }
 
   .featuredProjectHeadcaption .briefHeadNote,
-  .projectHeader > p {
+  .projectHeader>p {
     margin: 0 0 20px 0;
     font-size: 1.3rem;
   }
 
-  div.subFeaturedProjectContainer .buttons > button {
+  div.subFeaturedProjectContainer .buttons>button {
     padding: 10px;
     border: none;
     border-radius: 6px;
     font-size: 17px;
   }
 
-  div.subFeaturedProjectContainer .buttons > button a {
+  div.subFeaturedProjectContainer .buttons>button a {
     color: white;
     text-decoration: none;
   }
 
-  div.subFeaturedProjectContainer .buttons > button:first-child {
+  div.subFeaturedProjectContainer .buttons>button:first-child {
     padding: 10px;
     border: none;
     border-radius: 6px;
@@ -446,7 +449,7 @@
     background-color: var(--Dominant-color);
   }
 
-  div.subFeaturedProjectContainer .buttons > button:last-child {
+  div.subFeaturedProjectContainer .buttons>button:last-child {
     padding: 10px;
     border: 1px solid white;
     border-radius: 6px;
@@ -465,8 +468,7 @@
     padding-bottom: 7rem;
   }
 
-  .firstprojectTitle,
-  .secondprojectTitle {
+  .firstprojectTitle, .secondprojectTitle {
     font-size: 1.5rem;
     font-weight: 700;
   }
@@ -484,32 +486,33 @@
   }
 
   button.moreProjectBtn {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
-    appearance: none; /* Removes platform-specific styles */
-    border: none; /* Ensures no border issues */
-    outline: none;
-    -webkit-tap-highlight-color: transparent; /* Prevents highlight on mobile */
+  appearance: none; /* Removes platform-specific styles */
+  border: none; /* Ensures no border issues */
+  outline: none;
+  -webkit-tap-highlight-color: transparent; /* Prevents highlight on mobile */
 
-    width: 12rem;
+
+width: 12rem;
     height: 45px;
-    background-color: var(--Dominant-color);
-    font-size: 1.3rem;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-    border: none;
-    border-radius: 9px;
-  }
+  background-color: var(--Dominant-color);
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 9px;
+}
 
-  button.moreProjectBtn:focus,
-  button.moreProjectBtn:active {
-    background-color: var(--Dominant-color); /* Maintain the original color */
-    outline: none;
-    box-shadow: none; /* Remove any unwanted shadow or glow */
-  }
+button.moreProjectBtn:focus,
+button.moreProjectBtn:active {
+  background-color: var(--Dominant-color); /* Maintain the original color */
+  outline: none;
+  box-shadow: none; /* Remove any unwanted shadow or glow */
+}
   span {
     transform: none;
   }
@@ -519,6 +522,7 @@
     height: auto;
     object-fit: contain;
   }
+
 
   .featuredProject .subFeaturedProjectContainer {
     display: flex;
@@ -559,7 +563,7 @@
     gap: 1rem;
   }
 
-  .subFeaturedProjectContainer .buttons > button {
+  .subFeaturedProjectContainer .buttons>button {
     padding: 10px;
     border: none;
     border-radius: 6px;
@@ -588,7 +592,7 @@
     border-radius: 9px;
     padding: 10px;
     font-size: 1.5rem;
-    background-image: url("asset/image/WeatherApp.jpg");
+    background-image: url('asset/image/WeatherApp.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -596,11 +600,13 @@
 
   #projectMainContainer button {
     padding: 6px;
+
   }
 
   #projectMainContainer button a {
     font-size: 1.3rem;
   }
+
 
   .secondProject img {
     width: 330px;
@@ -612,22 +618,19 @@
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin: 50px 0 0 0;
-  }
+    margin: 50px 0 0 0;  }
 
-  .firstProjectTitleContainer,
-  .secondProjectTitleContainer {
+  .firstProjectTitleContainer, .secondProjectTitleContainer {
     text-align: center;
   }
 
-  div.secondProjectTextContainer,
-  div.firstProjectTextContainer {
-    display: flex;
+div.secondProjectTextContainer, div.firstProjectTextContainer {
+  display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
+}
+  
   /* .firstProjectContainer,
   .secondProjectContainer,
   .thirdProjectContainer {
@@ -645,7 +648,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 1.5;
+            line-height: 1.5;
+
   }
 
   main .contactContainerMobile {
@@ -679,7 +683,7 @@
     font-size: 1.1rem;
   }
 
-  .mobileFormContainer > p {
+  .mobileFormContainer>p {
     margin: 16px 0 0 0;
   }
 
@@ -696,7 +700,7 @@
     border-radius: 9px;
   }
 
-  .mobileSendBtnContainer > button .mobileSubmitInputEl svg {
+  .mobileSendBtnContainer>button .mobileSubmitInputEl svg {
     fill: rgb(73, 73, 197);
   }
 
@@ -826,11 +830,12 @@
     margin: 0 0 100px 0;
   }
 
-  #root footer {
+#root footer {
     margin: 6rem 0 80px 0;
     position: relative;
     overflow: hidden;
-  }
+}
+
 }
 
 @media (min-width: 501px) and (max-width: 659px) {
@@ -990,6 +995,7 @@
     font-size: 15px;
   }
 
+
   div.introduction {
     display: flex;
     flex-direction: column;
@@ -1015,6 +1021,7 @@
   }
 
   .aboutMeContainer .aboutGoals {
+
     line-height: 1.37;
     word-spacing: 2.8px;
   }
@@ -1032,6 +1039,7 @@
     word-spacing: 2.8px;
   }
 
+
   main .courseContainer {
     display: flex;
     flex-direction: column;
@@ -1048,10 +1056,10 @@
     align-items: center;
   }
 
-  .courseInfo .subHeader > h3,
-  .featuredProjectHeadcaption > h3,
+  .courseInfo .subHeader>h3,
+  .featuredProjectHeadcaption>h3,
   .projectHeader h2,
-  .contactHeadCaptionMobile > h2,
+  .contactHeadCaptionMobile>h2,
   .mobileFormContainer {
     margin: 50px 0 10px 0;
   }
@@ -1076,18 +1084,34 @@
     min-width: 500px;
     font: 1.2rem "Arial";
   }
-
-  section.courseContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0 50px; */
-    margin: 40px 47px 0 30px;
-    gap: 7rem;
+/* 
+  .courseInfo .logo {
+    min-width: 250px;
+    min-height: 200px;
   }
 
-  div.courseInfo {
+  .courseContainer .courseInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courseContainer .courseImgContainer {
+    display: block;
+  } */
+
+
+
+  section.courseContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0 50px; */
+        margin: 40px 47px 0 30px;
+        gap: 7rem;
+    }
+
+    div.courseInfo {
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
@@ -1108,8 +1132,10 @@
     max-width: 500px;
   }
 
+ 
+
   .featuredProjectHeadcaption .briefHeadNote,
-  .projectHeader > p {
+  .projectHeader>p {
     margin: 0 0 10px 0;
   }
 
@@ -1142,7 +1168,7 @@
     gap: 1rem;
   }
 
-  .subFeaturedProjectContainer .buttons > button {
+  .subFeaturedProjectContainer .buttons>button {
     padding: 10px;
     border: none;
     border-radius: 6px;
@@ -1150,12 +1176,13 @@
   }
 
   div.aboutFeaturedWorkContainer {
-    display: flex;
+    display: flex
+;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     font-size: 1.2rem;
-  }
+}
 
   main .otherProjectsContainer {
     display: flex;
@@ -1167,6 +1194,7 @@
   div.projectCarouselContainer {
     display: none;
   }
+
 
   div.deviceLayout {
     max-width: 560px;
@@ -1188,15 +1216,14 @@
     padding-bottom: 8rem;
   }
 
-  div.firstProjectBody,
-  div.secondProjectBody {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
-    padding: 0 40px;
-  }
+      div.firstProjectBody, div.secondProjectBody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 4rem;
+        padding: 0 40px;
+    }
 
   /* .firstProject.container p,
   .secondProject.container p,
@@ -1207,25 +1234,22 @@
     align-items: center;
   } */
 
-  div.firstProjectContainer,
-  .secondProjectContainer,
-  .thirdProjectContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 1rem;
-    padding-bottom: 7rem;
-  }
+      div.firstProjectContainer, .secondProjectContainer, .thirdProjectContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 7rem;
+    }
 
-  div.secondProjectTextContainer,
-  div.firstProjectTextContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-  }
+      div.secondProjectTextContainer, div.firstProjectTextContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+    }
 
   main .contactContainerMobile {
     display: flex;
@@ -1243,6 +1267,7 @@
   }
 
   .mobileFormContainer input {
+
     max-width: 239px;
     max-height: 50px;
     border-radius: 5px;
@@ -1254,7 +1279,7 @@
     border-radius: 5px;
   }
 
-  .mobileFormContainer > p {
+  .mobileFormContainer>p {
     margin: 16px 0 0 0;
   }
 
@@ -1332,7 +1357,7 @@
   }
 
   nav {
-    position: relative;
+    position: fixed;
     right: 0;
     top: 0;
     background-color: transparent;
@@ -1369,13 +1394,13 @@
     background-color: white;
   }
 
-  #navList li > a {
+  #navList li>a {
     text-decoration: none;
     color: rgb(240, 14, 14);
     background-color: transparent;
   }
 
-  #navList li > a:hover {
+  #navList li>a:hover {
     background-color: rgb(188, 236, 15);
   }
 
@@ -1432,6 +1457,7 @@
     word-spacing: 1.3px;
   }
 
+
   .experienceEl .experienceDescriptionContainer {
     display: flex;
     flex-direction: column;
@@ -1461,10 +1487,10 @@
     align-items: center;
   }
 
-  .courseInfo .subHeader > h3,
-  .featuredProjectHeadcaption > h3,
+  .courseInfo .subHeader>h3,
+  .featuredProjectHeadcaption>h3,
   .projectHeader h2,
-  .contactHeadCaptionMobile > h2,
+  .contactHeadCaptionMobile>h2,
   .mobileFormContainer {
     margin: 50px 0 10px 0;
   }
@@ -1482,56 +1508,53 @@
     min-width: 500px;
     font: 1.3rem "Arial";
   }
-  section.courseContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0 50px; */
-    margin: 40px 47px 0 30px;
-    gap: 7rem;
-  }
+    section.courseContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0 50px; */
+        margin: 40px 47px 0 30px;
+        gap: 7rem;
+    }
 
-  div.courseInfo {
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-  }
+    div.courseInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+    }
 
   /* .courseContainer .courseImgContainer {
     display: block;
   } */
 
-  div.firstProjectBody,
-  div.secondProjectBody {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 4rem;
-    padding: 0 40px;
-  }
+    div.firstProjectBody, div.secondProjectBody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 4rem;
+        padding: 0 40px;
+    }
 
-  .desktopScreen {
+    .desktopScreen {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: none;
+    border: 1px solid black;
     height: 250px;
     width: 380px;
     border-radius: 10px;
+}
 
-  }
-
-  div.secondProjectTextContainer,
-  div.firstProjectTextContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-    text-align: center;
-  }
+    div.secondProjectTextContainer, div.firstProjectTextContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+        text-align: center;
+    }
 
   main .featuredProject {
     display: flex;
@@ -1539,6 +1562,8 @@
     justify-content: center;
     align-items: center;
   }
+
+  
 
   .captionContainer,
   .subFeaturedProjectContainer .aboutFeaturedWork,
@@ -1548,8 +1573,10 @@
     word-spacing: 1.3px;
   }
 
+  
+
   .featuredProjectHeadcaption .briefHeadNote,
-  .projectHeader > p {
+  .projectHeader>p {
     margin: 0 0 10px 0;
   }
 
@@ -1582,21 +1609,12 @@
     gap: 1rem;
   }
 
-  .subFeaturedProjectContainer .buttons > button {
+  .subFeaturedProjectContainer .buttons>button {
     padding: 10px;
     border: none;
     border-radius: 6px;
     font-size: 17px;
   }
-
-   div.aboutFeaturedWorkContainer {
-    display: flex
-;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-}
 
   div#projectMainContainer {
     display: block;
@@ -1617,8 +1635,7 @@
     padding-bottom: 8rem;
   }
 
-  .firstprojectTitle,
-  .secondprojectTitle {
+  .firstprojectTitle, .secondprojectTitle {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
@@ -1639,7 +1656,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    border: none;
+    border: 1px solid black;
     min-width: 250px;
     min-height: 200px;
     border-radius: 9px;
@@ -1688,7 +1705,7 @@
     border-radius: 5px;
   }
 
-  .mobileFormContainer > p {
+  .mobileFormContainer>p {
     margin: 16px 0 0 0;
   }
 
@@ -1722,3 +1739,4 @@
     height: 40px;
   }
 }
+
