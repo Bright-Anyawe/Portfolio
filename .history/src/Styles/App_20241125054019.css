@@ -1332,7 +1332,7 @@
   }
 
   nav {
-    position: relative;
+    position: fixed;
     right: 0;
     top: 0;
     background-color: transparent;
@@ -1639,7 +1639,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    border: none;
+    border: noneblack;
     min-width: 250px;
     min-height: 200px;
     border-radius: 9px;
