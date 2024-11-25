@@ -1,11 +1,7 @@
 export const PersonalInfo = () => {
   return (
     <>
-      <section
-        className="introductionContainer"
-        id="personalInfo"
-        data-testid="personalIntro"
-      >
+      <section className="introductionContainer" id="personalInfo" >
         <div className="subTitleContainer">
           <h1 className="subTitle">
             <span> + </span> ABOUT ME <span> + </span>

@@ -10,7 +10,7 @@ export const Footer = () => {
 
   return (
     <>
-      <footer data-testid="footer">
+      <footer >
         <section className="socialMediaElContainer">
           <div className="subMediaContainer">
             <div className="socialMediaEl">

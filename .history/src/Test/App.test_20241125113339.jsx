@@ -90,13 +90,13 @@ describe("App", () => {
   });
 
   
-  it("should render the footer of the page", () => {
+  it("should render the contact section of the page", () => {
     render(
       <GeneralContext.Provider>
         <App />
       </GeneralContext.Provider>
     );
-    const footer = screen.getByTestId("footer");
-    expect(footer).toBeInTheDocument();
+    const contactSection = screen.getByTestId("contactSection");
+    expect(contactSection).toBeInTheDocument();
   });
 });

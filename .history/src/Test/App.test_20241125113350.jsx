@@ -96,7 +96,7 @@ describe("App", () => {
         <App />
       </GeneralContext.Provider>
     );
-    const footer = screen.getByTestId("footer");
-    expect(footer).toBeInTheDocument();
+    const contactSection = screen.getByTestId("footer");
+    expect(contactSection).toBeInTheDocument();
   });
 });

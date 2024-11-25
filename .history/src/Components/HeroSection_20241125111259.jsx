@@ -12,7 +12,7 @@ export const Greeting = () => {
         className="greetingContainer"
         ref={greetingTextRef}
         data-aos="fade-up-right"
-        data-testid="heroSection"
+        
       >
         <div className="greetingTextContainer">
           <p className="hi">

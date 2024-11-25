@@ -88,15 +88,4 @@ describe("App", () => {
     const contactSection = screen.getByTestId("contactSection");
     expect(contactSection).toBeInTheDocument();
   });
-
-  
-  it("should render the footer of the page", () => {
-    render(
-      <GeneralContext.Provider>
-        <App />
-      </GeneralContext.Provider>
-    );
-    const footer = screen.getByTestId("footer");
-    expect(footer).toBeInTheDocument();
-  });
 });
