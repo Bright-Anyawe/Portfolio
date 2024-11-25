@@ -6,10 +6,12 @@ import { GeneralContext } from "../Contexts/Context";
 
 
 describe("App", () => {
-  it("should render the header contents", () => {
+  it("should render the header contents container", () => {
     render(
         <GeneralContext.Provider
-        >   
+          value={{ toggleSidebar: vi.fn(), isCollapsed: false }}
+        >
+           
             <App />
         </GeneralContext.Provider>
     );

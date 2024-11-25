@@ -381,7 +381,7 @@
     transform: skewX(-8deg);
     transform: skew(12deg, -2deg);
     object-fit: cover;
-            border-radius: 10px;
+            border-radius: 9px;
     
   }
 

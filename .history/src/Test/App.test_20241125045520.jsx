@@ -1,15 +1,16 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import App from "../App";
-import { GeneralContext } from "../Contexts/Context";
-
 
 
 describe("App", () => {
-  it("should render the header contents", () => {
+  it("should render the header contents container", () => {
     render(
         <GeneralContext.Provider
-        >   
+          value={{ toggleSidebar: vi.fn(), isCollapsed: false }}
+        >
+            value={{ projects: [], setProjects: vi.fn() }}
+          >
             <App />
         </GeneralContext.Provider>
     );

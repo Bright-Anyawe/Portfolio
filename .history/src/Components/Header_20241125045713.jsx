@@ -56,7 +56,7 @@ export const Header = () => {
 
   return (
     <>
-      <header data-testid="header">
+      <header data-testid="display">
         <div className="portfolioLogo mobileScreenPortfolioLogo">
           <p className="logoText">A</p>
         </div>

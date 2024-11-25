@@ -10,7 +10,7 @@ export const FeaturedProject = () => {
             </p>
           </div>
         </div>
-{/* 
+
         <div className="subFeaturedProjectContainer">
           <img
             className="showDesktop mobileResponsive"
@@ -38,22 +38,18 @@ export const FeaturedProject = () => {
               </a>
             </button>
           </div>
-        </div> */}
+        </div>
 
-        <div className="subFeaturedProjectContainer">
-          <div className="featuredProjectTitleContainer">
-            <h3 className="featuredProjectTitle">Todo App</h3>
+        <div className="firstProjectContainer">
+          <div className="firstProjectTitleContainer">
+            <h3 className="firstProjectTitle">E-commerce App</h3>
           </div>
           <div className="firstProjectBody">
             <div className="firstProject mobileScreen desktopScreen">
-              <img
-                className="showDesktop mobileResponsive"
-                src="/Todo list 2.jpg"
-                alt="Image for desktop layout"
-              />{" "}
+              <img src="/image copy.png" alt="E-commerce image" />
             </div>
 
-            <div className="aboutFeaturedWorkContainer">
+            <div className="firstProjectTextContainer">
               <p className="aboutFeaturedWork">
                 A real-world{" "}
                 <span className="featuredWorkGoalGetter">Goal Getter</span> that
@@ -62,13 +58,13 @@ export const FeaturedProject = () => {
               </p>
               <div className="buttons">
                 <button>
-                  <a href="https://todo-app-react-plum-eight.vercel.app/">
+                  <a href="https://6726b683822c5148f1324bec--shopping-online-web-app.netlify.app/">
                     Live Website
                   </a>
                 </button>
                 <button>
-                  <a href="https://github.com/Bright-Anyawe/Todo_app_react">
-                    View on GitHub
+                  <a href="https://github.com/Bright-Anyawe/Shopping_cart">
+                    View on Github
                   </a>
                 </button>
               </div>

@@ -22,11 +22,10 @@ a {
   --Dominant-color: rgb(76.470588%, 0%, 18.431373%);
 }
 
-.introductionContainer div, .experienceEl div, .courseContainer div, .featuredProject div,
- .otherProjectsContainer div, .contactContainer div, footer {
+.introductionContainer div, .experienceEl div, .courseContainer div, .featuredProject div,  {
   animation: CssscrollReveal ease-in-out both;
   animation-timeline: view();
-  animation-range: entry 50% cover 50%;
+  animation-range: entry 50% cover 20%;
 }
 
 @keyframes CssscrollReveal {

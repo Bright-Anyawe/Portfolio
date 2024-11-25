@@ -10,7 +10,7 @@ export const FeaturedProject = () => {
             </p>
           </div>
         </div>
-{/* 
+
         <div className="subFeaturedProjectContainer">
           <img
             className="showDesktop mobileResponsive"
@@ -38,20 +38,19 @@ export const FeaturedProject = () => {
               </a>
             </button>
           </div>
-        </div> */}
+        </div>
 
-        <div className="subFeaturedProjectContainer">
-          <div className="featuredProjectTitleContainer">
-            <h3 className="featuredProjectTitle">Todo App</h3>
+        <div className="firstProjectContainer">
+          <div className="firstProjectTitleContainer">
+            <h3 className="firstProjectTitle">E-commerce App</h3>
           </div>
           <div className="firstProjectBody">
             <div className="firstProject mobileScreen desktopScreen">
-              <img
-                className="showDesktop mobileResponsive"
-                src="/Todo list 2.jpg"
-                alt="Image for desktop layout"
-              />{" "}
-            </div>
+  <img
+            className="showDesktop mobileResponsive"
+            src="/Todo list 2.jpg"
+            alt="Image for desktop layout"
+          />            </div>
 
             <div className="aboutFeaturedWorkContainer">
               <p className="aboutFeaturedWork">
