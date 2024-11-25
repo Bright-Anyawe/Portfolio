@@ -4,7 +4,7 @@ export const FeaturedProject = () => {
       <section
         className="featuredProject"
         id="challenge"
-        data-testid="featuredProject"
+        data-testid="featuredProjectSection"
       >
         <div className="captionContainer">
           <div className="featuredProjectHeadcaption">

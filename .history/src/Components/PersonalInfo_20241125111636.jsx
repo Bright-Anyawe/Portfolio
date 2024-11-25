@@ -4,7 +4,7 @@ export const PersonalInfo = () => {
       <section
         className="introductionContainer"
         id="personalInfo"
-        data-testid="personalIntro"
+        data-testid="per"
       >
         <div className="subTitleContainer">
           <h1 className="subTitle">

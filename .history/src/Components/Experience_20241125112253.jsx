@@ -1,7 +1,7 @@
 export const Experience = () => {
   return (
     <>
-      <section className="experienceEl" data-testid="experienceSection">
+      <section className="experienceEl" data-testid="personalIntro">
         <div className="experienceDescriptionContainer">
           <h3>
             My <span>experience</span> as a developer

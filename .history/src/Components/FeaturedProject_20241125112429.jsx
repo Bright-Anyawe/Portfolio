@@ -1,11 +1,7 @@
 export const FeaturedProject = () => {
   return (
     <>
-      <section
-        className="featuredProject"
-        id="challenge"
-        data-testid="featuredProject"
-      >
+      <section className="featuredProject" id="challenge" >
         <div className="captionContainer">
           <div className="featuredProjectHeadcaption">
             <h3>FEATURED WORK</h3>
@@ -14,7 +10,7 @@ export const FeaturedProject = () => {
             </p>
           </div>
         </div>
-        {/* 
+{/* 
         <div className="subFeaturedProjectContainer">
           <img
             className="showDesktop mobileResponsive"

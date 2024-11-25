@@ -97,6 +97,6 @@ describe("App", () => {
       </GeneralContext.Provider>
     );
     const footer = screen.getByTestId("footer");
-    expect(footer).toBeInTheDocument();
+    expect(contactSection).toBeInTheDocument();
   });
 });

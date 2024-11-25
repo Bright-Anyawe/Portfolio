@@ -4,7 +4,7 @@ export const ContactSection = () => {
       <section
         className="contactContainer contactContainerMobile"
         id="myContact"
-        data-testid="contactSection"
+        data-testid
       >
         <div className="contactCaption contactHeadCaptionMobile">
           <h2>CONTACT ME</h2>

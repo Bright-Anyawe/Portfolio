@@ -12,7 +12,7 @@ const handleOpenProject = () => {
 };
   return (
     <>
-      <section className="otherProjectsContainer" data-testid="otherProjectSection">
+      <section className="otherProjectsContainer" data-testid="featuredProject">
         <div className="projectHeaderContainer">
           <div className="projectHeader">
             <h2>More Projects</h2>
