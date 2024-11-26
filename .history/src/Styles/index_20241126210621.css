@@ -88,7 +88,7 @@ header::before {
   margin-left: 30px;
   color: var(--Dominant-color);
       bottom: -35px;
-    right: -6px;
+    right: 3px;
 }
 
 .logoTextContainer {
@@ -97,14 +97,13 @@ left: 16px;
 }
 
 .logoTextContainer::before {
-      position: absolute;
-    content: '';
-        top: 6px;
-    left: 58px;
-    right: 0;
-    bottom: 0;
-    width: 10px;
-    height: 65px;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 30;
+  right: 0;
+  bottom:0;
+  width: 10px;    height: 77px;
     background-color: var(--Dominant-color);
     transform: rotate(355deg) skew(-156deg);
 
@@ -113,12 +112,12 @@ left: 16px;
 .logoTextContainer::after {
     position: absolute;
     content: '';
-    top: 11px;
+    top: 2px;
     left: 26px;
     right: 0;
     bottom: 0;
     width: 10px;
-    height: 57px;
+    height: 70px;
     background-color: var(--Dominant-color);
     transform: rotate(170deg) skew(-35deg);
 }

@@ -88,7 +88,7 @@ header::before {
   margin-left: 30px;
   color: var(--Dominant-color);
       bottom: -35px;
-    right: -6px;
+    right: -10px;
 }
 
 .logoTextContainer {
@@ -99,12 +99,12 @@ left: 16px;
 .logoTextContainer::before {
       position: absolute;
     content: '';
-        top: 6px;
-    left: 58px;
+    top: -3px;
+    left: 65px;
     right: 0;
     bottom: 0;
     width: 10px;
-    height: 65px;
+    height: 78px;
     background-color: var(--Dominant-color);
     transform: rotate(355deg) skew(-156deg);
 

@@ -32,20 +32,19 @@ padding: 10px;  }
 div.logoTextContainer::before {
   position: absolute;
     content: '';
-    top: 8px;
-        left: 62px;
-        right: 0;
-        bottom: 0;
-        width: 10px;
-        height: 60px;
-        background-color: var(--Dominant-color);
-        transform: rotate(355deg) skew(-156deg);
+    top: -3px;
+    left: 65px;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 60px;
+    background-color: var(--Dominant-color);
+    transform: rotate(355deg) skew(-156deg);
 
 }
 
 div.logoTextContainer::after {
    position: absolute;
-    content: '';
             top: 12px;
         left: 32px;
         right: 0;
