@@ -933,9 +933,9 @@ form {
 }
 
 .formEl input:focus,.formEl textarea:focus {
-  border-color: rgb(236, 155, 4);
+  border-color: red;
   outline: none;
-  box-shadow: 0 0 3px rgba(146, 61, 4, 0.5);
+  box-shadow: 0 0 3px rgba(76, 175, 80, 0.5);
 }
 
 .formEl textarea {

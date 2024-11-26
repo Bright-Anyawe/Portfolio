@@ -14,6 +14,36 @@ export const FeaturedProject = () => {
             </p>
           </div>
         </div>
+        {/* 
+        <div className="subFeaturedProjectContainer">
+          <img
+            className="showDesktop mobileResponsive"
+            src="/Todo list 2.jpg"
+            alt="Image for desktop layout"
+          />
+          <div className="aboutFeaturedWorkContainer">
+            <p className="aboutFeaturedWork">
+              A real-world{" "}
+              <span className="featuredWorkGoalGetter">Goal Getter</span> that
+              helps users track daily tasks, edit, delete, and create different
+              projects with their respective to-dos.
+            </p>
+          </div>
+
+          <div className="buttons">
+            <button>
+              <a href="https://todo-app-react-plum-eight.vercel.app/">
+                Live Website
+              </a>
+            </button>
+            <button>
+              <a href="https://github.com/Bright-Anyawe/Todo_app_react">
+                View on GitHub
+              </a>
+            </button>
+          </div>
+        </div> */}
+>>>>>>> 2d91b64 (Test the porfolio whether the section renders)
 
         <div className="subFeaturedProjectContainer">
           <div className="featuredProjectTitleContainer">
