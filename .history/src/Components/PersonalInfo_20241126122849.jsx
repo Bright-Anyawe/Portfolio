@@ -27,10 +27,7 @@ export const PersonalInfo = () => {
               My name is <span className="identity">Anyawe Bright</span>,
               I&apos;m a front-end developer in Ghana. I spend most of my time
               studying in order to improve upon my skills, using code to solve
-              real-world problems, which is one of the things I love to do.From
-              a young age, I have always been interested in learning how to
-              create the software that we use today and how to enter the game
-              development industry, which is what I want to do.
+              real-world problems, which is one of the things I love to do. Since early age, I have alway 
             </p>
 
             <p className="aboutGoals">
