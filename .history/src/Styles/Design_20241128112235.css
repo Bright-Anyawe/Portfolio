@@ -1,0 +1,82 @@
+
+.bigA {
+  font-size: 50rem;
+  position: absolute;
+  left: 25rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.2;
+  color: #6d5555;
+  /* background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="10" y="50" font-size="30">A</text></svg>');
+  background-repeat: repeat; */
+
+
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+.bigA::before {
+  display: inline-block;
+  content: "A";
+  transform: rotate(60deg);
+  position: absolute;
+  font-size: 30rem;
+  top: -350px;
+  left: 110px;
+
+  animation: float 2s infinite;
+}
+
+.bigA::after {
+  content: "A";
+  position: absolute;
+  font-size: 30rem;
+  top: 650px;
+  left: 110px;
+    transform: rotate(60deg);
+
+  animation: float 3s infinite alternate;
+}
+
+
+.wrapper::before {
+  content: "A";
+  position: absolute;
+  font-size: 20rem;
+  top: 1350px;
+  left: 550px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: float 2s infinite;
+}
+
+.wrapper::after {
+  content: "A";
+ position: absolute;
+  font-size: 20rem;
+  top: 3300px;
+  left: 550px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: float 3s infinite alternate;
+}
+
+.smallBigA {
+  font-size: 20rem;
+  position: absolute;
+  left: 65rem;
+  top: 2470px;
+
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}

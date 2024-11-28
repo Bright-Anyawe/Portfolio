@@ -1,0 +1,28 @@
+
+..bigA {
+  font-size: 50rem;
+  position: absolute;
+  left: 25rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.3;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.bigA::before {
+content: "A";
+position: absolute;
+font-size: 30rem;
+top: -350px;
+left: 110px;
+}
+
+.bigA::after {
+content: "A";
+position: absolute;
+font-size: 30rem;
+top: 650px;
+left: 110px;
+}
+

@@ -1,0 +1,32 @@
+
+.bigA {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-size: 50rem;
+  /* margin: auto; */
+ left: 25rem;
+   position: absolute; 
+   transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.3;
+  color: #6d5555;
+}
+
+.bigA::before {
+content: "A";
+position: absolute;
+font-size: 30rem;
+top: -350px;
+left: 110px;
+}
+
+.bigA::after {
+content: "A";
+position: absolute;
+font-size: 30rem;
+top: 650px;
+left: 110px;
+}
+

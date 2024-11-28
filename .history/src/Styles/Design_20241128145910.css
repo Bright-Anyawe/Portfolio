@@ -1,0 +1,206 @@
+.bigA {
+  font-size: 50rem;
+  position: absolute;
+  left: 25rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  
+
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+.bigA::before {
+  display: block;
+  content: "A";
+  transform: rotate(60deg);
+  position: absolute;
+  font-size: 30rem;
+  top: -350px;
+  left: 110px;
+
+  animation: float 2s infinite;
+}
+
+.bigA::after {
+  content: "A";
+  position: absolute;
+  font-size: 30rem;
+  top: 650px;
+  left: 110px;
+  transform: rotate(360deg);
+  animation: float 3s infinite alternate;
+}
+
+.wrapper::before {
+  content: "A";
+  position: absolute;
+  font-size: 20rem;
+  top: 1350px;
+  left: 550px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: float 2s infinite; */
+}
+
+.wrapper::after {
+  content: "A";
+  position: absolute;
+  font-size: 20rem;
+  top: 3300px;
+  left: 550px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: float 3s infinite alternate;
+}
+
+.sideBigA {
+  font-size: 20rem;
+  position: absolute;
+  left: 65rem;
+  top: 2400px;
+
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.sideBigA::before {
+  content: "A";
+  font-size: 20rem;
+  display: block;
+  position: absolute;
+
+  right: 60rem;
+  top: 2px;
+  z-index: -9999;
+  opacity: 0.5;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.firstLeftSide2BigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1420px;
+  left: 850px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+.lastLeftSide2BigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1420px;
+  left: 1100px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+.rightSideBigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1420px;
+  left: 300px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+.firstRightSideBigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1420px;
+  left: 60px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+
+.upSmallA {
+  content: "A";
+  position: absolute;
+  font-size: 15rem;
+  transform: rotate(360deg);
+  top: 1150px;
+  left: 580px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: float 2s infinite;
+}
+
+
+span.upFirstLeftSmallA {
+  content: "A";
+  position: absolute;
+  display: block;
+  font-size: 900rem;
+  transform: rotate(360deg);
+  width: 24324px;
+  height: ;
+  background-color: blue;
+  top: 1150px;
+  left: 380px;
+  opacity: 1;
+  color: red;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: float 2s infinite;
+}
+
+.upSecondLeftSmallA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 90rem;
+  top: 1420px;
+  left: 550px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+} 
+
+
+@keyframes floatSideToSide {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

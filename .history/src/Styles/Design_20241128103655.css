@@ -1,0 +1,19 @@
+
+.bigA {
+  display: grid;
+  place-content: ;
+  font-size: 50rem;
+  /* width: 10rem;
+  height: 9rem; */
+   position: absolute; 
+   transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.3;
+  color: #6d5555;
+}
+
+.bigA::before {
+content: "A";
+font-size: 10rem;
+}
+
