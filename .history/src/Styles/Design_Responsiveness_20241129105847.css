@@ -1,0 +1,280 @@
+
+@media (max-width: 500px) {
+
+     
+span.initialBigA {
+  font-size: 25rem;
+  position: absolute;
+  left: 7rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+.latterBigA {
+  font-size: 15rem;
+  position: absolute;
+  top: 3640px;
+  left: 1rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  /* color:red; */
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  /* animation: float 2s infinite; */
+}
+
+span.firstLeftSideLatterBigA {
+     /* display: none; */
+ font-size: 17rem;
+  position: absolute;
+  top: 2010px;
+  left: 15rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  /* color: #6d5555; */
+  color: green;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  /* animation: float 2s infinite; */
+}
+
+span.secondLeftSideLatterBigA {
+     /* display: none; */
+
+ font-size: 17rem;
+  position: absolute;
+  top: 2010px;
+  left: 72rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  animation: float 2s infinite;
+}
+
+
+span.firstRightSideLatterBigA {
+    content: "A";
+  position: absolute;
+  font-size: 7rem;
+  transform: rotate(360deg);
+  top: 2180px;
+  left: 210px;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: red; */
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation:none;
+}
+
+
+span.secondRightSideLatterBigA {
+     /* display: none; */
+
+  font-size: 5rem;
+  position: absolute;
+  top: 2080px;
+  left: 225px;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  /* animation: float 2s infinite; */
+}
+
+.fourthUpperEightLeftSmallA {
+     display: none;
+}
+
+span.wrapper {
+     display: none;
+}
+     
+span.wrapper::before {
+     display: none;
+
+  content: "A";
+  position: absolute;
+  font-size: 20rem;
+  top: 1350px;
+  left: 550px;
+  opacity: 0.2;
+  /* color: #6d5555; */
+  color: Blue;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: float 2s infinite; */
+}
+
+span.wrapper::after {
+     display: none;
+
+  content: "A";
+  position: absolute;
+  font-size: 20rem;
+  top: 3300px;
+  left: 550px;
+  opacity: 0.2;
+  /* color: #6d5555; */
+  color: red;
+
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: float 3s infinite alternate;
+}
+
+span.sideBigA {
+     /* display: none; */
+
+  font-size: 13rem;
+  position: absolute;
+  left: 11rem;
+  top: 2680px;
+
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: yellow; */
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+span.bottomSmallA {
+  content: "A";
+  position: absolute;
+  font-size: 11rem;
+  transform: rotate(360deg);
+  top: 2591px;
+  left: 350px;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: red; */
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation:none;
+}
+
+span.bottomFirstLeftSmallA {
+     content: "A";
+  position: absolute;
+  font-size: 11rem;
+  transform: rotate(360deg);
+  top: 2500px;
+  left: 190px;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: red; */
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation:none;
+}
+
+span.bottomSecondLeftSmallA {
+         content: "A";
+  position: absolute;
+  font-size: 9rem;
+  transform: rotate(360deg);
+  top: 2300px;
+  left: 200px;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: red; */
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation:none;
+}
+
+
+span.sideBigA::before {
+     display: none;
+
+  content: "A";
+  font-size: 20rem;
+  display: block;
+  position: absolute;
+
+  right: 60rem;
+  top: 2px;
+  z-index: -9999;
+  opacity: 0.5;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+span.firstLeftSide2BigA {
+     display: none;
+
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 850px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+span.lastLeftSide2BigA {
+     display: none;
+
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 1100px;
+  opacity: 0.2;
+  z-index: -9999;
+
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+span.rightSideBigA {
+     display: none;
+
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 300px;
+  opacity: 0.2;
+  z-index: -9999;
+
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+span.firstRightSideBigA {
+     display: none;
+
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 60px;
+  opacity: 0.2;
+  z-index: -9999;
+
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+
+
+}

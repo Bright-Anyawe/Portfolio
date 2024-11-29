@@ -1,0 +1,201 @@
+
+@media (max-width: 500px) {
+
+     
+span.initialBigA {
+  font-size: 25rem;
+  position: absolute;
+  left: 7rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+.latterBigA {
+  font-size: 15rem;
+  position: absolute;
+  top: 3640px;
+  left: 1rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  /* color:red; */
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  /* animation: float 2s infinite; */
+}
+
+span.firstLeftSideLatterBigA {
+ font-size: 17rem;
+  position: absolute;
+  top: 2010px;
+  left: 55rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  /* color: #6d5555; */
+  color: green;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  /* animation: float 2s infinite; */
+}
+
+span.secondLeftSideLatterBigA {
+ font-size: 17rem;
+  position: absolute;
+  top: 2010px;
+  left: 72rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  animation: float 2s infinite;
+}
+
+span.firstRightSideLatterBigA {
+  font-size: 17rem;
+  position: absolute;
+  top: 2010px;
+  left: 20rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  /* animation: float 2s infinite; */
+}
+
+span.secondRightSideLatterBigA {
+  font-size: 17rem;
+  position: absolute;
+  top: 2010px;
+  left: 2.5rem;
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.1;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+
+  /* animation: float 2s infinite; */
+}
+     
+span.wrapper::before {
+  content: "A";
+  position: absolute;
+  font-size: 20rem;
+  top: 1350px;
+  left: 550px;
+  opacity: 0.2;
+  /* color: #6d5555; */
+  color: Blue;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: float 2s infinite; */
+}
+
+span.wrapper::after {
+  content: "A";
+  position: absolute;
+  font-size: 20rem;
+  top: 3300px;
+  left: 550px;
+  opacity: 0.2;
+  /* color: #6d5555; */
+  color: red;
+
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: float 3s infinite alternate;
+}
+
+span.sideBigA {
+  font-size: 20rem;
+  position: absolute;
+  left: 65rem;
+  top: 2400px;
+
+  transform: rotate(360deg);
+  z-index: -9999;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+span.sideBigA::before {
+  content: "A";
+  font-size: 20rem;
+  display: block;
+  position: absolute;
+
+  right: 60rem;
+  top: 2px;
+  z-index: -9999;
+  opacity: 0.5;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.firstLeftSide2BigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 850px;
+  opacity: 0.2;
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+.lastLeftSide2BigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 1100px;
+  opacity: 0.2;
+  z-index: -9999;
+
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+.rightSideBigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 300px;
+  opacity: 0.2;
+  z-index: -9999;
+
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  animation: floatSideToSide 2s infinite;
+}
+
+.firstRightSideBigA {
+  content: "A";
+  position: absolute;
+  transform: rotate(360deg);
+  font-size: 15rem;
+  top: 1550px;
+  left: 60px;
+  opacity: 0.2;
+  z-index: -9999;
+
+  color: #6d5555;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+
+
+}
