@@ -1087,10 +1087,418 @@
 }
 
 @media (min-width: 660px) and (max-width: 768px) {
+  body header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+  }
 
-  body {
-         overflow-x: hidden;
-     overflow-y: auto;
-   }
+  .menuSvgContainer,
+  #toggleMenuIcon,
+  #firstSideBarContainer {
+    display: none;
+  }
+
+  body main {
+    font-family: arial;
+  }
+
+  #navList .sidebar {
+    display: flex;
+  }
+
+  nav {
+    position: relative;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    background-color: white;
+    margin: 0 30px 0 0;
+    transition: top 0.3s;
+    z-index: 1000;
+  }
+
+  nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav li {
+    height: 50px;
+    font-weight: 700;
+  }
+
+  nav a {
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  nav a:hover {
+    background-color: white;
+  }
+
+  #navList li > a {
+    text-decoration: none;
+    color: rgb(240, 14, 14);
+    background-color: transparent;
+  }
+
+  #navList li > a:hover {
+    background-color: rgb(188, 236, 15);
+  }
+
+  .greetingTextContainer .briefIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    padding: 0 15px;
+  }
+
+  .greetingContainer .btnContainer {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .greetingContainer .btnContainer button {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  button.viewWorkBtn a,
+  .btnContainer button a {
+    font-size: 16px;
+  }
+
+  button.ResumeBtn {
+    border: 1px solid white;
+  }
+
+  div.aboutMeContainer {
+    margin: 0 0 0 10px;
+  }
+
+  .aboutMeContainer .introHeaderText {
+    margin: 1rem 0 10px 0;
+  }
+
+  div.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutMeContainer .aboutMeEl {
+    margin: 12px 0 1rem 0;
+  }
+
+  .aboutMeContainer .aboutGoals {
+    font: 18px "Arial";
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+  .experienceEl .experienceDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .experienceDescriptionContainer .experienceDescription {
+    text-align: center;
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+  main .courseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    max-height: 550px;
+  }
+
+  .courseInfo .subHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .courseInfo .subHeader > h3,
+  .featuredProjectHeadcaption > h3,
+  .projectHeader h2,
+  .contactHeadCaptionMobile > h2,
+  .mobileFormContainer {
+    margin: 50px 0 10px 0;
+  }
+
+  .subject,
+  .contactHeadCaptionMobile .contactPEl {
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+  .skill {
+    text-align: center;
+    min-width: 500px;
+    font: 1.3rem "Arial";
+  }
+  section.courseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 50px; */
+    margin: 40px 47px 0 30px;
+    gap: 7rem;
+  }
+
+  div.courseInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+
+  /* .courseContainer .courseImgContainer {
+    display: block;
+  } */
+
+  div.firstProjectBody,
+  div.secondProjectBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 0 40px;
+  }
+
+  .desktopScreen {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    height: 250px;
+    width: 380px;
+    border-radius: 10px;
+  }
+
+  div.secondProjectTextContainer,
+  div.firstProjectTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  main .featuredProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .captionContainer,
+  .subFeaturedProjectContainer .aboutFeaturedWork,
+  .otherProjectsContainer .projectHeaderContainer {
+    text-align: center;
+    line-height: 1.4;
+    word-spacing: 1.3px;
+  }
+
+  .featuredProjectHeadcaption .briefHeadNote,
+  .projectHeader > p {
+    margin: 0 0 10px 0;
+  }
+
+  .featuredProject .subFeaturedProjectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 16px "Arial";
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showDesktop {
+    border: 1px solid black;
+    min-width: 250px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .featuredProject .subFeaturedProjectContainer .showMobile {
+    border: 1px solid black;
+    max-width: 100px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  .subFeaturedProjectContainer .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .subFeaturedProjectContainer .buttons > button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+
+  div.aboutFeaturedWorkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  div#projectMainContainer {
+    display: block;
+  }
+
+  .socialMediaSvgContainer li a {
+    background-color: inherit;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  div.projectContainer {
+    display: block;
+    padding-bottom: 8rem;
+  }
+
+  .firstprojectTitle,
+  .secondprojectTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  main .otherProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.projectCarouselContainer {
+    display: none;
+  }
+
+  div.projectContainer .mobileScreen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: none;
+    min-width: 250px;
+    min-height: 200px;
+    border-radius: 9px;
+    padding: 10px;
+  }
+
+  div.projectContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .firstProject.container p,
+  .secondProject.container p,
+  .thirdProject.container p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .contactContainerMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactHeadCaptionMobile,
+  .mobileSendBtnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileFormContainer input {
+    max-width: 239px;
+    max-height: 50px;
+    border-radius: 5px;
+  }
+
+  .mobileTextAreaInputEl {
+    min-height: 80px;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+
+  .mobileFormContainer > p {
+    margin: 16px 0 0 0;
+  }
+
+  .mobileSubmitInputEl {
+    margin: 16px 0 0 0;
+    width: 100px;
+    max-width: 120px;
+    height: 45px;
+    font-size: 19px;
+    background-color: var(--Dominant-color);
+    color: white;
+    border: none;
+    border-radius: 9px;
+  }
+
+  .mobileLogoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobileGithublogoContainer,
+  .mobileGmailLogoContainer,
+  .mobileTweetLogoContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
 }
 
+ body {
+        overflow-x: hidden;
+    overflow-y: auto;
+  }
