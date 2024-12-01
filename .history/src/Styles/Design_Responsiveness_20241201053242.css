@@ -1,9 +1,8 @@
 @media (max-width: 500px) {
-
-  body {
+  /* body {
         overflow-x: hidden;
     overflow-y: auto;
-  }
+  } */
 
   span.initialBigA {
     font-size: 25rem;

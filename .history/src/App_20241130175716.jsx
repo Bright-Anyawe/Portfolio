@@ -126,7 +126,7 @@ export default function App() {
           <span className="fourthUpperFifthLeftSmallA">A</span>
           <span className="fourthUpperSixthLeftSmallA">A</span>
           <span className="fourthUpperSevenLeftSmallA">A</span>
-          {/* <span className="fourthUpperEightLeftSmallA">A</span> */}
+          <span className="fourthUpperEightLeftSmallA">A</span>
           <span className="fourthUpperFirstRightSmallA">A</span>
           <span className="fourthUpperSecondRightSmallA">A</span>
           <span className="fourthUpperThirdRightSmallA">A</span>
@@ -195,7 +195,7 @@ export default function App() {
           <span className="fourthLeftDesignThreeEl">A</span>
           <span className="fifthLeftDesignThreeEl">A</span>
           <span className="sixthLeftDesignThreeEl">A</span>
-          {/* <span className="firstRightDesignThreeEl">A</span> */}
+          <span className="firstRightDesignThreeEl">A</span>
           <span className="secondRightDesignThreeEl">A</span>
           <span className="thirdRightDesignThreeEl">A</span>
           <span className="fourthRightDesignThreeEl">A</span>
@@ -229,7 +229,7 @@ export default function App() {
           <span className="thirdRightDesignFifthEl">A</span>
           <span className="fourthRightDesignFifthEl">A</span>
           <span className="fifthRightDesignFifthEl">A</span>
-          {/* <span className="sixthRightDesignFifthEl">A</span> */}
+          <span className="sixthRightDesignFifthEl">A</span>
           <span className="sevenRightDesignFifthEl">A</span>
 
         </div>

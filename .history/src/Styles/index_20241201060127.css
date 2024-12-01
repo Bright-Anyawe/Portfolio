@@ -845,13 +845,13 @@ display: flex
 .buttons button {
   padding: 10px;
   font-size: 17px;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 3ms ease-in;
       border-radius: 15px;
 }
 
 .buttons button:hover {
   transform: scale(1.04);
-  
+  color: var(--Dominant-color)
 }
 
 .buttons button:first-child {

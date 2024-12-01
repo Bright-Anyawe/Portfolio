@@ -126,7 +126,7 @@ export default function App() {
           <span className="fourthUpperFifthLeftSmallA">A</span>
           <span className="fourthUpperSixthLeftSmallA">A</span>
           <span className="fourthUpperSevenLeftSmallA">A</span>
-          {/* <span className="fourthUpperEightLeftSmallA">A</span> */}
+          <span className="fourthUpperEightLeftSmallA">A</span>
           <span className="fourthUpperFirstRightSmallA">A</span>
           <span className="fourthUpperSecondRightSmallA">A</span>
           <span className="fourthUpperThirdRightSmallA">A</span>

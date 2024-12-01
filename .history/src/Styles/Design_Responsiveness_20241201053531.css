@@ -1,8 +1,12 @@
 @media (max-width: 500px) {
 
   body {
-        overflow-x: hidden;
-    overflow-y: auto;
+        /* overflow-x: hidden;
+    overflow-y: auto; */
+  }
+
+  .personalInfoDesignOne {
+    display: none;
   }
 
   span.initialBigA {

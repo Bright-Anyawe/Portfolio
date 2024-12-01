@@ -4,6 +4,10 @@
         overflow-x: hidden;
     overflow-y: auto;
   }
+/* 
+  .personalInfoDesignOne {
+    display: none;
+  }  */
 
   span.initialBigA {
     font-size: 25rem;

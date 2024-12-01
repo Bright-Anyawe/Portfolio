@@ -292,6 +292,7 @@ nav a {
 .greetingTextContainer h2 {
   margin: 0 0 20px;
   font-size: 20px;
+  /* color: white; */
   font-weight: 500;
 }
 
@@ -329,13 +330,13 @@ nav a {
   overflow: hidden;
 }
 
- .btnContainer button:hover {
+ button:hover {
   color: white;
   filter: drop-shadow(0 0  10px red);
   transform: scale(1.05);
 }
 
- .btnContainer button::after {
+ button::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -839,19 +840,16 @@ display: flex
   justify-content: center;
   gap: 1rem;
   margin: 20px 0 0 0;
-      border-radius: 15px;
 }
 
 .buttons button {
   padding: 10px;
   font-size: 17px;
-  transition: transform 0.2s ease-in-out;
-      border-radius: 15px;
+  transition: transform 3ms ease-in;
 }
 
 .buttons button:hover {
   transform: scale(1.04);
-  
 }
 
 .buttons button:first-child {
@@ -860,7 +858,6 @@ display: flex
   border-radius: 6px;
   font-size: 1.3rem;
   background-color: var(--Dominant-color);
-  border-radius: 15px;
 }
 
 .buttons button:first-child a {
@@ -873,7 +870,6 @@ display: flex
   border-radius: 6px;
   font-size: 1.3rem;
   background-color: black;
-      border-radius: 15px;
 }
 
 .buttons button:first-child a,
