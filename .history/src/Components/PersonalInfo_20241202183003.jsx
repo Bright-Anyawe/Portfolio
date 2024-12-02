@@ -28,12 +28,12 @@ export const PersonalInfo = () => {
               I&apos;m a front-end developer in Ghana. I spend most of my time
               studying in order to improve upon my skills, using code to solve
               real-world problems, which is one of the things I love to do.From
-              a young age, I developed interest to find out and learn how this
-              business software and games that we have in our modern world
-              works, so the questions, research and the resource I had help with
-              me to start as a web developer in creating projects like Todo
-              list, E-commerce site, Cv builder development industry, which is
-              what I want to do.
+              a young age, I  developed interest to find out and learn how this
+               business software and games that we have in our modern world works,
+                so the questions, research and the resource I had help with me to 
+                start as a web developer in creating projects like Todo list, E-commerce site, Cv
+              
+              development industry, which is what I want to do.
             </p>
 
             <p className="aboutGoals">
