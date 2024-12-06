@@ -22,13 +22,11 @@ export const Greeting = () => {
 
           <h2>I EMBRACE THE DIGITAL WORLD</h2>
           <p className="briefIntro backInUp">
-            Searching for someone who is eager to learn, who thinks of new and
-            better methods to solve problems, and who enjoys using their tech
-            talents to assist others in solving difficulties? You&apos;re in the
-            correct place. I can assist you with developing features, projects,
-            or websites as well as testing your web application. Explore my work
-            to witness my inventiveness! Should you be interested, I am
-            available for employment.
+           Looking for someone who is willing to learn, find new ways and better to solve a problem and loves to help people solve
+            problems with their tech skills? You are on the right site. I can
+            help you build projects, features, or websites and test your web
+            app. Look through my work and see my innovation! If you are
+            interested, I am available for hire.
           </p>
 
           <div className="btnContainer">

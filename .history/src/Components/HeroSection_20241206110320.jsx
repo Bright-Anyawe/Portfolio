@@ -24,7 +24,7 @@ export const Greeting = () => {
           <p className="briefIntro backInUp">
             Searching for someone who is eager to learn, who thinks of new and
             better methods to solve problems, and who enjoys using their tech
-            talents to assist others in solving difficulties? You&apos;re in the
+            talents to assist others in solving difficulties? Youre in the
             correct place. I can assist you with developing features, projects,
             or websites as well as testing your web application. Explore my work
             to witness my inventiveness! Should you be interested, I am
