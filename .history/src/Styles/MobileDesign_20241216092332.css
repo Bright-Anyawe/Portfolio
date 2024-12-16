@@ -61,7 +61,7 @@ div.MobileDesignContainer {
     /* color: red; */
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+    animation: float 2s infinite;
   }
 
   .wrapper {
@@ -331,7 +331,7 @@ div.MobileDesignContainer {
     color: #6d5555;
      z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+    animation: float 2s infinite;
   }
 
   .thirdMobileMiddleDesign {
@@ -345,7 +345,7 @@ div.MobileDesignContainer {
     color: #6d5555;
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+    animation: float 2s infinite;
   }
  
   .thirdMobileFirstLeftDesign {
@@ -461,7 +461,7 @@ div.MobileDesignContainer {
     color: #6d5555;
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+        animation: float 2s infinite;
 
   }
 
@@ -529,7 +529,7 @@ div.MobileDesignContainer {
     color: #6d5555;
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+            animation: float 2s infinite;
 
   }
 
@@ -595,7 +595,7 @@ div.MobileDesignContainer {
     color: #6d5555;
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+            animation: float 2s infinite;
 
   }
 
@@ -662,7 +662,7 @@ div.MobileDesignContainer {
     color: #6d5555;
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+            animation: float 2s infinite;
 
   }
 
@@ -719,7 +719,7 @@ div.MobileDesignContainer {
     color: #6d5555;
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-            animation: floatSideToSide 2s infinite;
+            animation: float 2s infinite;
 
   }
 
