@@ -1,0 +1,15 @@
+
+
+.firstMobileMiddleDesign{
+     content: "A";
+    position: absolute;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 460px;
+    left: 315px;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}

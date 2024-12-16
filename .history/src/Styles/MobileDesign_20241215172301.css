@@ -1,0 +1,116 @@
+@media (max-width: 500px) {
+  .firstMobileMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 12vh;
+    left: 50vw;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    color: red;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: float 2s infinite; */
+  }
+
+  .firstMobileFirstLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 65vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileSecondLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 80vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+.firstMobileFirstRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 35vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileSecondRightDesign {
+     content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 5vw;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    color: red;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+   .firstMobileThirdRightDesign {
+     content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 2vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+
+  .secondMobileMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 24vh;
+    left: 50vw;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    color: green;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: float 2s infinite; */
+  }
+
+  .thirdMobileMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 34vh;
+    left: 50vw;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    color: green;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: float 2s infinite; */
+  }
+}

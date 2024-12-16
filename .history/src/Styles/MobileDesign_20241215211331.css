@@ -1,0 +1,514 @@
+@media (max-width: 500px) {
+  .firstMobileMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 12vh;
+    left: 50vw;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    color: red;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: float 2s infinite; */
+  }
+
+  .wrapper {
+    display: none;
+  }
+
+  .firstMobileFirstLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 63vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: floatSideToSide 2s infinite; */
+  }
+
+  .firstMobileSecondLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 75vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileThirdLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 88vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileFourthLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 100vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileFirstRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 40vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileSecondRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 28vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileThirdRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 15vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .firstMobileFourthRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 19vh;
+    left: 3vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileFirstLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 63vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: floatSideToSide 2s infinite; */
+  }
+
+  .secondMobileSecondLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 75vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileThirdLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 88vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileFourthLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 100vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileFirstRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 40vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileSecondRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 28vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileThirdRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 15vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileFourthRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    transform: rotate(360deg);
+    top: 29vh;
+    left: 3vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondMobileMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 24vh;
+    left: 50vw;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    color: green;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: float 2s infinite; */
+  }
+
+  .thirdMobileMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 34vh;
+    left: 50vw;
+    opacity: 0.2;
+    /* color: #6d5555; */
+    color: green;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+    /* animation: float 2s infinite; */
+  }
+
+  .thirdMobileMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 34vh;
+    left: 50vw;
+    opacity: 0.2;
+    color: #6d5555;
+
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .thirdMobileFirstLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 63vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .thirdMobileSecondLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 75vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .thirdMobileThirdLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 88vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .thirdMobileFourthLeftDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 100vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .thirdMobileFirstRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 40vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .thirdMobileSecondRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 28vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .thirdMobileThirdRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 15vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .thirdMobileFourthRightDesign {
+    content: "A";
+    position: fixed;
+    font-size: 3rem;
+    top: 39vh;
+    left: 3vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .fourthMobileMiddleDesign {
+    position: fixed;
+    font-size: 4rem;
+    top: 44vh;
+    left: 50vw;
+    opacity: 0.2;
+    color: purple;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .fourthMobileFirstLeftDesign,
+  .fourthMobileSecondLeftDesign,
+  .fourthMobileThirdLeftDesign,
+  .fourthMobileFourthLeftDesign {
+    position: fixed;
+    font-size: 3rem;
+    top: 50vh;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .fourthMobileFirstLeftDesign {
+    left: 63vw;
+  }
+  .fourthMobileSecondLeftDesign {
+    left: 75vw;
+  }
+  .fourthMobileThirdLeftDesign {
+    left: 88vw;
+  }
+  .fourthMobileFourthLeftDesign {
+    left: 100vw;
+  }
+
+  .fourthMobileFirstRightDesign,
+  .fourthMobileSecondRightDesign,
+  .fourthMobileThirdRightDesign,
+  .fourthMobileFourthRightDesign {
+    position: fixed;
+    font-size: 3rem;
+    top: 50vh;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+  }
+
+  .fourthMobileFirstRightDesign {
+    left: 40vw;
+  }
+  .fourthMobileSecondRightDesign {
+    left: 28vw;
+  }
+  .fourthMobileThirdRightDesign {
+    left: 15vw;
+  }
+  .fourthMobileFourthRightDesign {
+    left: 3vw;
+  }
+
+  .fifthMobileMiddleDesign {
+    top: 54vh;
+    position: fixed;
+    font-size: 4rem;
+    left: 50vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .fifthMobileFirstLeftDesign,
+  .fifthMobileSecondLeftDesign,
+  .fifthMobileThirdLeftDesign,
+  .fifthMobileFourthLeftDesign,
+  .fifthMobileFirstRightDesign,
+  .fifthMobileSecondRightDesign,
+  .fifthMobileThirdRightDesign,
+  .fifthMobileFourthRightDesign {
+    top: 54vh;
+  }
+
+  .sixthMobileMiddleDesign {
+    top: 64vh;
+    position: fixed;
+
+    /* color: red; */
+    font-size: 4rem;
+    left: 50vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+  .seventhMobileMiddleDesign {
+    top: 74vh;
+    position: fixed;
+    font-size: 4rem;
+    left: 50vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+  .eighthMobileMiddleDesign {
+    top: 84vh;
+    position: fixed;
+    font-size: 4rem;
+    left: 50vw;
+    opacity: 0.2;
+    color: #6d5555;
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .sixthMobileFirstLeftDesign,
+  .sixthMobileSecondLeftDesign,
+  .sixthMobileThirdLeftDesign,
+  .sixthMobileFourthLeftDesign,
+
+  
+  .sixthMobileFirstRightDesign,
+  .sixthMobileSecondRightDesign,
+  .sixthMobileThirdRightDesign,
+  .sixthMobileFourthRightDesign {
+    top: 64vh;
+  }
+
+  .seventhMobileFirstLeftDesign,
+  .seventhMobileSecondLeftDesign,
+  .seventhMobileThirdLeftDesign,
+  .seventhMobileFourthLeftDesign,
+  .seventhMobileFirstRightDesign,
+  .seventhMobileSecondRightDesign,
+  .seventhMobileThirdRightDesign,
+  .seventhMobileFourthRightDesign {
+    top: 74vh;
+  }
+}
