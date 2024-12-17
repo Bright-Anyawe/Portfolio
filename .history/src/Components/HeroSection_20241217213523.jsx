@@ -43,7 +43,7 @@ export const Greeting = () => {
                 <a
                   download="Anyawe_Bright_Resume.pdf"
                   className="resumeLink"
-                  href="/Junior Developer(FrontEnd~+).pdf"
+                  href=""
                 >
                   Resume
                 </a>

@@ -73,7 +73,7 @@ const handleOpenProject = () => {
                         </a>
                       </button>
                       <button>
-                        <a href="https://github.com/Bright-Anyawe/Ecommerce-frontend">
+                        <a href="https://github.com/Bright-Anyawe/Shopping_cart">
                           View on Github
                         </a>
                       </button>
