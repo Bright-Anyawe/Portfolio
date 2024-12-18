@@ -41,11 +41,10 @@ export const PersonalInfo = () => {
             </p>
 
             <p className="aboutGoals">
-              I aim to master JavaScript to craft unique, creative, and
-              innovative solutions that address real-world challenges through
-              code. If you&apos;re intrigued by my portfolio or seeking an
-              enthusiastic developer to join your team, I&apos;m open to
-              opportunities and ready to contribute.
+              My goal is to master JavaScript in order to deliver, through code,
+              unique, creative, and innovative solutions to real-world problems.
+              If my portfolio interests you, or you need an enthusiastic
+              developer on your team, I am available for hire.
             </p>
 
             <div className="langTechToolContainer">
