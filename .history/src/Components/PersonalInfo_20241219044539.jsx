@@ -30,10 +30,8 @@ export const PersonalInfo = () => {
               application, using code to solve real-world problems—a pursuit
               that brings me immense satisfaction. From a young age, I have been
               fascinated by how modern software and games function.
-            </p>
-
-            <p>
-              This curiosity drove me to ask questions, conduct research, and
+               This
+              curiosity drove me to ask questions, conduct research, and
               leverage available resources, ultimately leading me to pursue a
               career in web development. I have worked on various projects,
               including a Todo List app, an E-commerce website, and a CV Builder
