@@ -1,0 +1,496 @@
+.zeroLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 12vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.zeroLargeScreenFirstLeftDesign,
+.zeroLargeScreenSecondLeftDesign,
+.zeroLargeScreenThirdLeftDesign,
+.zeroLargeScreenFourthLeftDesign,
+.zeroLargeScreenFifthLeftDesign,
+.zeroLargeScreenSixthLeftDesign,
+.zeroLargeScreenSevenLeftDesign,
+.zeroLargeScreenEightLeftDesign,
+.zeroLargeScreenFirstRightDesign,
+.zeroLargeScreenSecondRightDesign,
+.zeroLargeScreenThirdRightDesign,
+.zeroLargeScreenFourthRightDesign,
+.zeroLargeScreenFifthRightDesign,
+.zeroLargeScreenSixthRightDesign,
+.zeroLargeScreenSevenRightDesign,
+.zeroLargeScreenEightRightDesign {
+  transform: rotate(360deg);
+  top: 9vh;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.zeroLargeScreenFirstLeftDesign {
+  left: 57vw;
+}
+.zeroLargeScreenSecondLeftDesign {
+  left: 65vw;
+}
+.zeroLargeScreenThirdLeftDesign {
+  left: 73vw;
+}
+.zeroLargeScreenFourthLeftDesign {
+  left: 82vw;
+}
+.zeroLargeScreenFifthLeftDesign {
+  left: 89vw;
+}
+.zeroLargeScreenSixthLeftDesign {
+  left: 95vw;
+}
+.zeroLargeScreenSevenLeftDesign {
+  left: 100vw;
+}
+.zeroLargeScreenEightLeftDesign {
+  left: 100vw;
+}
+
+.zeroLargeScreenFirstRightDesign {
+  left: 43vw;
+}
+.zeroLargeScreenSecondRightDesign {
+  left: 35vw;
+}
+.zeroLargeScreenThirdRightDesign {
+  left: 28vw;
+}
+.zeroLargeScreenFourthRightDesign {
+  left: 21vw;
+}
+.zeroLargeScreenFifthRightDesign {
+  left: 21vw;
+}
+.zeroLargeScreenSixthRightDesign {
+  left: 14vw;
+}
+.zeroLargeScreenSevenRightDesign {
+  left: 7vw;
+}
+.zeroLargeScreenEightRightDesign {
+  left: 1vw;
+}
+
+.firstLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 22vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: red; */
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.secondLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 32vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: red; */
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.firstLargeScreenFirstLeftDesign,
+.firstLargeScreenSecondLeftDesign,
+.firstLargeScreenThirdLeftDesign,
+.firstLargeScreenFourthLeftDesign,
+.firstLargeScreenFifthLeftDesign,
+.firstLargeScreenSixthLeftDesign,
+.firstLargeScreenSevenLeftDesign,
+.firstLargeScreenEightLeftDesign,
+.firstLargeScreenFirstRightDesign,
+.firstLargeScreenSecondRightDesign,
+.firstLargeScreenThirdRightDesign,
+.firstLargeScreenFourthRightDesign,
+.firstLargeScreenFifthRightDesign,
+.firstLargeScreenSixthRightDesign,
+.firstLargeScreenSevenRightDesign,
+.firstLargeScreenEightRightDesign {
+  transform: rotate(360deg);
+  top: 18vh;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.firstLargeScreenFirstLeftDesign {
+  left: 55vw;
+}
+.firstLargeScreenSecondLeftDesign {
+  left: 61vw;
+}
+.firstLargeScreenThirdLeftDesign {
+  left: 69vw;
+}
+.firstLargeScreenFourthLeftDesign {
+  left: 78vw;
+}
+.firstLargeScreenFifthLeftDesign {
+  left: 86vw;
+}
+.firstLargeScreenSixthLeftDesign {
+  left: 92vw;
+}
+.firstLargeScreenSevenLeftDesign {
+  left: 100vw;
+}
+.firstLargeScreenEightLeftDesign {
+  left: 100vw;
+}
+
+.firstLargeScreenFirstRightDesign {
+  left: 46vw;
+}
+.firstLargeScreenSecondRightDesign {
+  left: 39vw;
+}
+.firstLargeScreenThirdRightDesign {
+  left: 31vw;
+}
+.firstLargeScreenFourthRightDesign {
+  left: 24vw;
+}
+.firstLargeScreenFifthRightDesign {
+  left: 18vw;
+}
+.firstLargeScreenSixthRightDesign {
+  left: 11vw;
+}
+.firstLargeScreenSevenRightDesign {
+  left: 4vw;
+}
+
+.secondLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 32vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  /* color: red; */
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.secondLargeScreenFirstLeftDesign,
+.secondLargeScreenSecondLeftDesign,
+.secondLargeScreenThirdLeftDesign,
+.secondLargeScreenFourthLeftDesign,
+.secondLargeScreenFifthLeftDesign,
+.secondLargeScreenSixthLeftDesign,
+.secondLargeScreenSevenLeftDesign,
+.secondLargeScreenEightLeftDesign,
+.secondLargeScreenFirstRightDesign,
+.secondLargeScreenSecondRightDesign,
+.secondLargeScreenThirdRightDesign,
+.secondLargeScreenFourthRightDesign,
+.secondLargeScreenFifthRightDesign,
+.secondLargeScreenSixthRightDesign,
+.secondLargeScreenSevenRightDesign,
+.secondLargeScreenEightRightDesign {
+  transform: rotate(360deg);
+  top: 25vh;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.secondLargeScreenFirstLeftDesign {
+  left: 57vw;
+}
+.secondLargeScreenSecondLeftDesign {
+  left: 65vw;
+}
+.secondLargeScreenThirdLeftDesign {
+  left: 73vw;
+}
+.secondLargeScreenFourthLeftDesign {
+  left: 82vw;
+}
+.secondLargeScreenFifthLeftDesign {
+  left: 89vw;
+}
+.secondLargeScreenSixthLeftDesign {
+  left: 95vw;
+}
+.secondLargeScreenSevenLeftDesign {
+  left: 100vw;
+}
+.secondLargeScreenEightLeftDesign {
+  left: 100vw;
+}
+
+.secondLargeScreenFirstRightDesign {
+  left: 43vw;
+}
+.secondLargeScreenSecondRightDesign {
+  left: 35vw;
+}
+.secondLargeScreenThirdRightDesign {
+  left: 28vw;
+}
+.secondLargeScreenFourthRightDesign {
+  left: 21vw;
+}
+.secondLargeScreenFifthRightDesign {
+  left: 14vw;
+}
+.secondLargeScreenSixthRightDesign {
+  left: 7vw;
+}
+.secondLargeScreenSevenRightDesign {
+  left: 1vw;
+}
+.secondLargeScreenEightRightDesign {
+  left: -5vw;
+}
+
+.thirdLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 42vh;
+  left: 50vw;
+  opacity: 0.2;
+  /* color: #6d5555; */
+  color: red;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+
+.thirdLargeScreenFirstLeftDesign,
+.thirdLargeScreenSecondLeftDesign,
+.thirdLargeScreenThirdLeftDesign,
+.thirdLargeScreenFourthLeftDesign,
+.thirdLargeScreenFifthLeftDesign,
+.thirdLargeScreenSixthLeftDesign,
+.thirdLargeScreenSevenLeftDesign,
+.thirdLargeScreenEightLeftDesign,
+.thirdLargeScreenFirstRightDesign,
+.thirdLargeScreenSecondRightDesign,
+.thirdLargeScreenThirdRightDesign,
+.thirdLargeScreenFourthRightDesign,
+.thirdLargeScreenFifthRightDesign,
+.thirdLargeScreenSixthRightDesign,
+.thirdLargeScreenSevenRightDesign,
+.thirdLargeScreenEightRightDesign {
+  transform: rotate(360deg);
+  top: 33vh;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0.2;
+  /* color: #6d5555; */
+  color: red;
+  z-index: -9999;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+
+.thirdLargeScreenFirstLeftDesign {
+  left: 55vw;
+}
+.thirdLargeScreenSecondLeftDesign {
+  left: 61vw;
+}
+.thirdLargeScreenThirdLeftDesign {
+  left: 69vw;
+}
+.thirdLargeScreenFourthLeftDesign {
+  left: 78vw;
+}
+.thirdLargeScreenFifthLeftDesign {
+  left: 86vw;
+}
+.thirdLargeScreenSixthLeftDesign {
+  left: 92vw;
+}
+.thirdLargeScreenSevenLeftDesign {
+  left: 100vw;
+}
+.thirdLargeScreenEightLeftDesign {
+  left: 100vw;
+}
+
+.thirdLargeScreenFirstRightDesign {
+  left: 46vw;
+}
+.thirdLargeScreenSecondRightDesign {
+  left: 39vw;
+}
+.thirdLargeScreenThirdRightDesign {
+  left: 31vw;
+}
+.thirdLargeScreenFourthRightDesign {
+  left: 24vw;
+}
+.thirdLargeScreenFifthRightDesign {
+  left: 18vw;
+}
+.thirdLargeScreenSixthRightDesign {
+  left: 11vw;
+}
+.thirdLargeScreenSevenRightDesign {
+  left: 4vw;
+}
+
+
+.fourthLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 54vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.fourthLargeScreenFirstLeftDesign {
+  left: 57vw;
+}
+.fourthLargeScreenSecondLeftDesign {
+  left: 65vw;
+}
+.fourthLargeScreenThirdLeftDesign {
+  left: 73vw;
+}
+
+.fourthLargeScreenFirstRightDesign {
+  left: 43vw;
+}
+.fourthLargeScreenSecondRightDesign {
+  left: 35vw;
+}
+.fourthLargeScreenThirdRightDesign {
+  left: 28vw;
+}
+
+.fifthLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 62vh;
+  left: 53vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.fifthLargeScreenFirstLeftDesign {
+  left: 57vw;
+}
+.fifthLargeScreenSecondLeftDesign {
+  left: 65vw;
+}
+
+.fifthLargeScreenFirstRightDesign {
+  left: 43vw;
+}
+.fifthLargeScreenSecondRightDesign {
+  left: 35vw;
+}
+
+.sixthLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 72vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.sixthLargeScreenFirstLeftDesign {
+  left: 57vw;
+}
+
+.sixthLargeScreenFirstRightDesign {
+  left: 43vw;
+}
+
+.seventhLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 82vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.seventhLargeScreenFirstLeftDesign {
+  left: 57vw;
+}
+
+.seventhLargeScreenFirstRightDesign {
+  left: 43vw;
+}
+
+.eighthLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 92vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+}
+
+.eighthLargeScreenFirstLeftDesign {
+  left: 57vw;
+}
+
+.eighthLargeScreenFirstRightDesign {
+  left: 43vw;
+}

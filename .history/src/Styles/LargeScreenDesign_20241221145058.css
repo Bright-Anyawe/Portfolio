@@ -1,0 +1,53 @@
+.zeroLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 12vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.zeroLargeScreenFirstLeftDesign,
+.zeroLargeScreenSecondLeftDesign,
+.zeroLargeScreenThirdLeftDesign,
+.zeroLargeScreenFourthLeftDesign,
+.zeroLargeScreenFifthLeftDesign,
+.zeroLargeScreenSixthLeftDesign,
+.zeroLargeScreenSevenLeftDesign,
+.zeroLargeScreenEightLeftDesign {
+   transform: rotate(360deg);
+  top: 9vh;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+
+  .zeroLargeScreenFirstLeftDesign {
+    left: 63vw;
+  }
+  .zeroLargeScreenSecondLeftDesign {
+    left: 75vw;
+  }
+  .zeroLargeScreenThirdLeftDesign {
+    left: 88vw;
+  }
+  .zeroLargeScreenFourthLeftDesign {
+    left: 100vw;
+  }
+  .zeroLargeScreenFourthLeftDesign {
+    left: 100vw;
+  }.zeroLargeScreenFourthLeftDesign {
+    left: 100vw;
+  }.zeroLargeScreenFourthLeftDesign {
+    left: 100vw;
+  }
+

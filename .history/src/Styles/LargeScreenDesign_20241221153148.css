@@ -1,0 +1,192 @@
+.zeroLargeScreenMiddleDesign {
+  content: "A";
+  position: fixed;
+  font-size: 4rem;
+  transform: rotate(360deg);
+  top: 12vh;
+  left: 50vw;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+.zeroLargeScreenFirstLeftDesign,
+.zeroLargeScreenSecondLeftDesign,
+.zeroLargeScreenThirdLeftDesign,
+.zeroLargeScreenFourthLeftDesign,
+.zeroLargeScreenFifthLeftDesign,
+.zeroLargeScreenSixthLeftDesign,
+.zeroLargeScreenSevenLeftDesign,
+.zeroLargeScreenEightLeftDesign,
+
+.zeroLargeScreenFirstRightDesign,
+.zeroLargeScreenSecondRightDesign,
+.zeroLargeScreenThirdRightDesign,
+.zeroLargeScreenFourthRightDesign,
+.zeroLargeScreenFifthRightDesign,
+.zeroLargeScreenSixthRightDesign,
+.zeroLargeScreenSevenRightDesign,
+.zeroLargeScreenEightRightDesign  {
+   transform: rotate(360deg);
+  top: 9vh;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+
+  .zeroLargeScreenFirstLeftDesign {
+    left: 57vw;
+  }
+  .zeroLargeScreenSecondLeftDesign {
+    left: 65vw;
+  }
+  .zeroLargeScreenThirdLeftDesign {
+    left: 73vw;
+  }
+  .zeroLargeScreenFourthLeftDesign {
+    left: 82vw;
+  }
+  .zeroLargeScreenFifthLeftDesign {
+    left: 89vw;
+  }.zeroLargeScreenSixthLeftDesign {
+    left: 95vw;
+  }.zeroLargeScreenSevenLeftDesign {
+    left: 100vw;
+  }.zeroLargeScreenEightLeftDesign {
+    left: 100vw;
+  }
+
+
+  
+  .zeroLargeScreenFirstRightDesign {
+    left: 43vw;
+  }
+  .zeroLargeScreenSecondRightDesign {
+    left: 35vw;
+  }
+  .zeroLargeScreenThirdRightDesign {
+    left: 28vw;
+  }
+  .zeroLargeScreenFourthRightDesign {
+    left: 21vw;
+  }
+.zeroLargeScreenFifthRightDesign {
+    left: 21vw;
+  }.zeroLargeScreenSixthRightDesign {
+    left: 14vw;
+  }.zeroLargeScreenSevenRightDesign {
+    left: 7vw;
+  }.zeroLargeScreenEightRightDesign {
+    left: 1vw;
+  }
+
+    .firstLargeScreenMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 22vh;
+    left: 50vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+  }
+
+  .secondLargeScreenMiddleDesign {
+    content: "A";
+    position: fixed;
+    font-size: 4rem;
+    transform: rotate(360deg);
+    top: 32vh;
+    left: 50vw;
+    opacity: 0.2;
+    color: #6d5555;
+    /* color: red; */
+    z-index: -9999;
+    text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
+                /* animation: floatSideToSide 2s infinite; */
+
+  }
+
+  
+.firstLargeScreenFirstLeftDesign,
+.firstLargeScreenSecondLeftDesign,
+.firstLargeScreenThirdLeftDesign,
+.firstLargeScreenFourthLeftDesign,
+.firstLargeScreenFifthLeftDesign,
+.firstLargeScreenSixthLeftDesign,
+.firstLargeScreenSevenLeftDesign,
+.firstLargeScreenEightLeftDesign,
+
+.firstLargeScreenFirstRightDesign,
+.firstLargeScreenSecondRightDesign,
+.firstLargeScreenThirdRightDesign,
+.firstLargeScreenFourthRightDesign,
+.firstLargeScreenFifthRightDesign,
+.firstLargeScreenSixthRightDesign,
+.firstLargeScreenSevenRightDesign,
+.firstLargeScreenEightRightDesign  {
+   transform: rotate(360deg);
+  top: 18vh;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0.2;
+  color: #6d5555;
+  z-index: -9999;
+  /* animation: floatSideToSide 2s infinite; */
+}
+
+
+  .firstLargeScreenFirstLeftDesign {
+    left: 55vw;
+  }
+  .firstLargeScreenSecondLeftDesign {
+    left: 61vw;
+  }
+  .firstLargeScreenThirdLeftDesign {
+    left: 69vw;
+  }
+  .firstLargeScreenFourthLeftDesign {
+    left: 78vw;
+  }
+  .firstLargeScreenFifthLeftDesign {
+    left: 86vw;
+  }.firstLargeScreenSixthLeftDesign {
+    left: 92vw;
+  }.firstLargeScreenSevenLeftDesign {
+    left: 100vw;
+  }.firstLargeScreenEightLeftDesign {
+    left: 100vw;
+  }
+
+  
+  .firstLargeScreenFirstRightDesign {
+    left: 46vw;
+  }
+  .firstLargeScreenSecondRightDesign {
+    left: vw;
+  }
+  .firstLargeScreenThirdRightDesign {
+    left: 28vw;
+  }
+  .firstLargeScreenFourthRightDesign {
+    left: 21vw;
+  }
+.firstLargeScreenFifthRightDesign {
+    left: 21vw;
+  }.firstLargeScreenSixthRightDesign {
+    left: 14vw;
+  }.firstLargeScreenSevenRightDesign {
+    left: 7vw;
+  }.firstLargeScreenEightRightDesign {
+    left: 1vw;
+  }
+
