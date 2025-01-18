@@ -456,9 +456,9 @@
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
     animation: floatSideToSide 2s infinite;
-}
+  }
 
-span.fourthUpperThirdRightSmallA {
+  span.fourthUpperThirdRightSmallA {
     content: "A";
     position: absolute;
     font-size: 3rem;
@@ -470,7 +470,7 @@ span.fourthUpperThirdRightSmallA {
     z-index: -9999;
     text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
     animation: floatSideToSide 2s infinite;
-}
+  }
 
   span.fourthUpperSixthLeftSmallA {
     content: "A";
@@ -564,7 +564,7 @@ span.fourthUpperThirdRightSmallA {
     font-size: 7rem;
     transform: rotate(360deg);
     top: 1240px;
-    left: 296px ;
+    left: 296px;
     opacity: 0.2;
     color: #6d5555;
     z-index: -9999;

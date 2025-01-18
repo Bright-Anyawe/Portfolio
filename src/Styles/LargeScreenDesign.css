@@ -101,8 +101,7 @@
   /* color: red; */
   z-index: -9999;
   text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-    animation: floatSideToSide 2s infinite;
-
+  animation: floatSideToSide 2s infinite;
 }
 
 .secondLargeScreenMiddleDesign {
@@ -296,10 +295,8 @@
   color: red;
   z-index: -9999;
   text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-    animation: floatSideToSide 2s infinite;
-
+  animation: floatSideToSide 2s infinite;
 }
-
 
 .thirdLargeScreenFirstLeftDesign,
 .thirdLargeScreenSecondLeftDesign,
@@ -327,7 +324,6 @@
   z-index: -9999;
   animation: floatSideToSide 2s infinite;
 }
-
 
 .thirdLargeScreenFirstLeftDesign {
   left: 55vw;
@@ -376,7 +372,6 @@
   left: 4vw;
 }
 
-
 .fourthLargeScreenMiddleDesign {
   content: "A";
   position: fixed;
@@ -390,7 +385,6 @@
   text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
 }
 
-
 .fourthLargeScreenFirstLeftDesign,
 .fourthLargeScreenSecondLeftDesign,
 .fourthLargeScreenThirdLeftDesign,
@@ -399,7 +393,6 @@
 .fourthLargeScreenSixthLeftDesign,
 .fourthLargeScreenSevenLeftDesign,
 .fourthLargeScreenEightLeftDesign,
-
 .fourthLargeScreenFirstRightDesign,
 .fourthLargeScreenSecondRightDesign,
 .fourthLargeScreenThirdRightDesign,
@@ -418,7 +411,6 @@
   z-index: -9999;
   animation: floatSideToSide 2s infinite;
 }
-
 
 .fourthLargeScreenFirstLeftDesign {
   left: 57vw;
@@ -471,7 +463,6 @@
   left: -5vw;
 }
 
-
 .fifthLargeScreenMiddleDesign {
   content: "A";
   position: fixed;
@@ -483,10 +474,8 @@
   color: #6d5555;
   z-index: -9999;
   text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-    animation: floatSideToSide 2s infinite;
-
+  animation: floatSideToSide 2s infinite;
 }
-
 
 .fifthLargeScreenFirstLeftDesign,
 .fifthLargeScreenSecondLeftDesign,
@@ -496,7 +485,6 @@
 .fifthLargeScreenSixthLeftDesign,
 .fifthLargeScreenSevenLeftDesign,
 .fifthLargeScreenEightLeftDesign,
-
 .fifthLargeScreenFirstRightDesign,
 .fifthLargeScreenSecondRightDesign,
 .fifthLargeScreenThirdRightDesign,
@@ -561,7 +549,6 @@
 }
 .fifthLargeScreenSevenRightDesign {
   left: 4vw;
-
 }
 
 .sixthLargeScreenMiddleDesign {
@@ -575,10 +562,8 @@
   color: #6d5555;
   z-index: -9999;
   text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-    animation: floatSideToSide 2s infinite;
-
+  animation: floatSideToSide 2s infinite;
 }
-
 
 .sixthLargeScreenFirstLeftDesign,
 .sixthLargeScreenSecondLeftDesign,
@@ -588,7 +573,6 @@
 .sixthLargeScreenSixthLeftDesign,
 .sixthLargeScreenSevenLeftDesign,
 .sixthLargeScreenEightLeftDesign,
-
 .sixthLargeScreenFirstRightDesign,
 .sixthLargeScreenSecondRightDesign,
 .sixthLargeScreenThirdRightDesign,
@@ -635,8 +619,6 @@
   left: 100vw;
 }
 
-
-
 .sixthLargeScreenFirstRightDesign {
   left: 43vw;
 }
@@ -662,9 +644,6 @@
   left: -5vw;
 }
 
-
-
-
 .seventhLargeScreenMiddleDesign {
   content: "A";
   position: fixed;
@@ -676,10 +655,8 @@
   color: #6d5555;
   z-index: -9999;
   text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-    animation: floatSideToSide 2s infinite;
-
+  animation: floatSideToSide 2s infinite;
 }
-
 
 .seventhLargeScreenFirstLeftDesign,
 .seventhLargeScreenSecondLeftDesign,
@@ -689,7 +666,6 @@
 .seventhLargeScreenSixthLeftDesign,
 .seventhLargeScreenSevenLeftDesign,
 .seventhLargeScreenEightLeftDesign,
-
 .seventhLargeScreenFirstRightDesign,
 .seventhLargeScreenSecondRightDesign,
 .seventhLargeScreenThirdRightDesign,
@@ -707,8 +683,6 @@
   z-index: -9999;
   animation: floatSideToSide 2s infinite;
 }
-
-
 
 .seventhLargeScreenFirstLeftDesign {
   left: 55vw;
@@ -755,7 +729,6 @@
 }
 .seventhLargeScreenSevenRightDesign {
   left: 4vw;
-
 }
 .eighthLargeScreenMiddleDesign {
   content: "A";
@@ -768,8 +741,7 @@
   color: #6d5555;
   z-index: -9999;
   text-shadow: 10px 10px 0 #d4c1c1, -10px -10px 0 #d4c1c1;
-    animation: floatSideToSide 2s infinite;
-
+  animation: floatSideToSide 2s infinite;
 }
 
 .eighthLargeScreenFirstLeftDesign,
@@ -780,7 +752,6 @@
 .eighthLargeScreenSixthLeftDesign,
 .eighthLargeScreenSevenLeftDesign,
 .eighthLargeScreenEightLeftDesign,
-
 .eighthLargeScreenFirstRightDesign,
 .eighthLargeScreenSecondRightDesign,
 .eighthLargeScreenThirdRightDesign,
@@ -798,8 +769,6 @@
   z-index: -9999;
   animation: floatSideToSide 2s infinite;
 }
-
-
 
 .eighthLargeScreenFirstLeftDesign {
   left: 58vw;
@@ -827,8 +796,6 @@
 .eighthLargeScreenEightLeftDesign {
   left: 100vw;
 }
-
-
 
 .eighthLargeScreenFirstRightDesign {
   left: 43vw;

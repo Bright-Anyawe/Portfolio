@@ -7,8 +7,8 @@
   font-style: normal;
 }
 
-.MobileDesignContainer{
-display: none;
+.MobileDesignContainer {
+  display: none;
 }
 
 .aboutMeEl2 {
@@ -30,8 +30,13 @@ a {
   --Dominant-color: rgb(76.470588%, 0%, 18.431373%);
 }
 
-.introductionContainer div, .experienceEl div, .courseContainer div, .featuredProject div,
- .otherProjectsContainer div, .contactContainer div, footer {
+.introductionContainer div,
+.experienceEl div,
+.courseContainer div,
+.featuredProject div,
+.otherProjectsContainer div,
+.contactContainer div,
+footer {
   animation: CssscrollReveal ease-in-out both;
   animation-timeline: view();
   animation-range: entry 50% cover 20%;
@@ -49,8 +54,6 @@ a {
   }
 }
 
-
-
 header {
   position: relative;
   display: flex;
@@ -60,10 +63,7 @@ header {
   padding: 10px;
   animation-duration: 3s;
   animation-name: slidein;
-
-  
 }
-
 
 .portfolioLogo svg {
   width: 90px;
@@ -79,44 +79,40 @@ header {
   animation: rotate 0.7s ease-in-out both;
   margin-left: 30px;
   color: var(--Dominant-color);
-      bottom: -35px;
-    right: -6px;
+  bottom: -35px;
+  right: -6px;
 }
 
 .logoTextContainer {
   position: relative;
-left: 16px;
+  left: 16px;
 }
 
 .logoTextContainer::before {
-      position: absolute;
-    content: '';
-        top: 6px;
-    left: 58px;
-    right: 0;
-    bottom: 0;
-    width: 10px;
-    height: 65px;
-    background-color: var(--Dominant-color);
-    transform: rotate(355deg) skew(-156deg);
-
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 58px;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  height: 65px;
+  background-color: var(--Dominant-color);
+  transform: rotate(355deg) skew(-156deg);
 }
 
 .logoTextContainer::after {
-    position: absolute;
-    content: '';
-    top: 11px;
-    left: 26px;
-    right: 0;
-    bottom: 0;
-    width: 10px;
-    height: 57px;
-    background-color: var(--Dominant-color);
-    transform: rotate(170deg) skew(-35deg);
+  position: absolute;
+  content: "";
+  top: 11px;
+  left: 26px;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  height: 57px;
+  background-color: var(--Dominant-color);
+  transform: rotate(170deg) skew(-35deg);
 }
-
-
-
 
 @keyframes rotate {
   0% {
@@ -156,7 +152,6 @@ nav {
   border: 1px solid rgb(216, 214, 214);
 }
 
-
 nav ul {
   width: 100%;
   list-style: none;
@@ -181,7 +176,7 @@ nav a {
   color: black;
 }
 
-#navList li>a {
+#navList li > a {
   text-decoration: none;
   color: var(--Dominant-color);
   background-color: transparent;
@@ -189,7 +184,7 @@ nav a {
   transition: 0.3s;
 }
 
-#navList li>a:hover {
+#navList li > a:hover {
   background-color: rgb(236, 85, 15);
   color: white;
   border-radius: 7px;
@@ -203,7 +198,6 @@ nav a {
   animation-name: slidein;
 }
 
-
 #projectMainContainer {
   display: block;
   padding: 30px 50px;
@@ -215,37 +209,45 @@ nav a {
   gap: 8rem;
 }
 
-.firstProjectContainer, .secondProjectContainer, .subFeaturedProjectContainer {
+.firstProjectContainer,
+.secondProjectContainer,
+.subFeaturedProjectContainer {
   display: flex;
   flex-direction: column;
-  
+
   justify-content: space-between;
   align-items: center;
   gap: 50px;
 }
 
-.firstProjectTitle, .secondProjectTitle, .featuredProjectTitle {
+.firstProjectTitle,
+.secondProjectTitle,
+.featuredProjectTitle {
   font-size: 1.8rem;
   font-weight: 600;
 }
 
-.firstProjectText, .secondProjectText {
+.firstProjectText,
+.secondProjectText {
   font-size: 1.5rem;
 }
 
-.firstProjectBody, .secondProjectBody {
+.firstProjectBody,
+.secondProjectBody {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
-    padding: 0 40px;
+  padding: 0 40px;
 }
 
-.firstProjectTextContainer .buttons, .secondProjectTextContainer .buttons {
-    display: flex;
-    justify-content: start;
-    gap: 1rem;
-    margin: 20px 0 0 0;}
+.firstProjectTextContainer .buttons,
+.secondProjectTextContainer .buttons {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  margin: 20px 0 0 0;
+}
 
 .one {
   content: "";
@@ -261,16 +263,16 @@ nav a {
   background-color: red;
 }
 .greetingTextContainer {
-    position: relative; 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 10px;
-    gap: 20px;
-    overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+  gap: 20px;
+  overflow: hidden;
 }
 
 .namedPerson,
@@ -294,7 +296,6 @@ nav a {
   max-width: 700px;
   line-height: 1.42;
   word-spacing: 2.8px;
-  
 }
 
 .greetingTextContainer h2 {
@@ -337,14 +338,14 @@ nav a {
   overflow: hidden;
 }
 
- .btnContainer button:hover {
+.btnContainer button:hover {
   color: white;
-  filter: drop-shadow(0 0  10px red);
+  filter: drop-shadow(0 0 10px red);
   transform: scale(1.05);
 }
 
- .btnContainer button::after {
-  content: '';
+.btnContainer button::after {
+  content: "";
   position: absolute;
   top: 50%;
   left: 10%;
@@ -359,7 +360,6 @@ nav a {
 .btnContainer button:hover::after {
   transform: translate(-50%, -50%) skew(45deg);
   background-color: orange;
-
 }
 
 .viewWorkBtn a {
@@ -404,7 +404,6 @@ button.ResumeBtn {
   padding: 10px 20px;
   position: relative;
 }
-
 
 .subTitle {
   display: flex;
@@ -489,7 +488,6 @@ span {
 
 .aboutGoals {
   line-height: 1.4;
-
 }
 
 .identity {
@@ -503,7 +501,7 @@ span {
 }
 
 .experienceEl {
-    position: relative;
+  position: relative;
 
   display: flex;
   justify-content: center;
@@ -515,16 +513,16 @@ span {
   font-size: 20rem;
   /* width: 10rem;
   height: 9rem; */
-   position: absolute; 
-   transform: rotate(360deg);
+  position: absolute;
+  transform: rotate(360deg);
   z-index: -9999;
   opacity: 0.3;
   color: #6d5555;
 }
 
 .bigA::before {
-content: "A";
-font-size: 10rem;
+  content: "A";
+  font-size: 10rem;
 }
 /* 
 .experienceEl::before {
@@ -565,7 +563,6 @@ font-size: 10rem;
     z-index: -1;
     overflow: hidden;
 } */
-
 
 .langTechToolContainer ul {
   display: flex;
@@ -636,7 +633,6 @@ font-size: 10rem;
   animation: kenburns-right 5s ease-out both;
 }
 
-
 @-webkit-keyframes kenburns-right {
   0% {
     -webkit-transform: scale(1) translate(0, 0);
@@ -691,9 +687,8 @@ font-size: 10rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-      margin-top: 80px;
-position: relative;
-
+  margin-top: 80px;
+  position: relative;
 }
 
 /* .featuredProject::before {
@@ -739,12 +734,11 @@ position: relative;
 }
 
 .aboutFeaturedWorkContainer {
-display: flex
-;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  font-size: 1.2rem;
 }
 
 .aboutFeaturedWork {
@@ -752,9 +746,6 @@ display: flex
   /* text-align: center; */
   font-size: 1.4rem;
 }
-
-
-
 
 .deviceLayoutContainer {
   display: flex;
@@ -829,7 +820,6 @@ display: flex
   }
 }
 
-
 .mobileImageContainer {
   background-image: url("asset/image/To-do project-mobile.png");
   background-position: center;
@@ -847,19 +837,18 @@ display: flex
   justify-content: center;
   gap: 1rem;
   margin: 20px 0 0 0;
-      border-radius: 15px;
+  border-radius: 15px;
 }
 
 .buttons button {
   padding: 10px;
   font-size: 17px;
   transition: transform 0.2s ease-in-out;
-      border-radius: 15px;
+  border-radius: 15px;
 }
 
 .buttons button:hover {
   transform: scale(1.04);
-  
 }
 
 .buttons button:first-child {
@@ -881,7 +870,7 @@ display: flex
   border-radius: 6px;
   font-size: 1.3rem;
   background-color: black;
-      border-radius: 15px;
+  border-radius: 15px;
 }
 
 .buttons button:first-child a,
@@ -915,7 +904,6 @@ display: flex
   margin: 5px 0 15px 0;
 }
 
-
 /* .desktopScreen {
   background-position: center;
   background-repeat: no-repeat;
@@ -935,8 +923,7 @@ svg {
   height: auto;
   object-fit: contain;
   border-radius: 9px;
-    border: 1px solid black;
-
+  border: 1px solid black;
 }
 
 .projectCarouselContainer {
@@ -945,7 +932,6 @@ svg {
   align-items: center;
 }
 
-
 .contactContainer {
   position: relative;
   display: flex;
@@ -953,8 +939,7 @@ svg {
   justify-content: center;
   align-items: center;
   gap: 4rem;
-    /* overflow: hidden; */
-
+  /* overflow: hidden; */
 }
 
 .formEl {
@@ -1066,7 +1051,8 @@ form {
   color: #555;
 }
 
-.formEl input,.formEl textarea {
+.formEl input,
+.formEl textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -1076,7 +1062,8 @@ form {
   font-family: inherit;
 }
 
-.formEl input:focus,.formEl textarea:focus {
+.formEl input:focus,
+.formEl textarea:focus {
   border-color: rgb(236, 155, 4);
   outline: none;
   box-shadow: 0 0 3px rgba(146, 61, 4, 0.5);
@@ -1109,16 +1096,15 @@ form {
     padding: 15px;
   }
 
- .formEl button {
+  .formEl button {
     font-size: 14px;
   }
 }
 
-
 footer {
-      margin: 6rem 0 131px 0;
-    position: relative;
-    overflow: hidden;
+  margin: 6rem 0 131px 0;
+  position: relative;
+  overflow: hidden;
 }
 
 svg {
@@ -1144,10 +1130,10 @@ svg {
   background-color: inherit;
 }
 .siteLogo .logoText {
-    font-size: 2.5rem;
-    margin: 0;
-    top: -5px;
-    right: 0px;
+  font-size: 2.5rem;
+  margin: 0;
+  top: -5px;
+  right: 0px;
 }
 
 .socialMediaSvgContainer svg {
@@ -1162,14 +1148,13 @@ svg {
 
 li.linkedInSvgContainer svg {
   width: 30px;
-
 }
 
 .socialMediaSvgContainer li {
   list-style-type: none;
 }
 
-.socialMediaSvgContainer li>p {
+.socialMediaSvgContainer li > p {
   margin: 0;
 }
 
@@ -1220,7 +1205,6 @@ hr {
   background-color: #555;
   padding: 0 50px;
 }
-
 
 .accessibiltyContainer {
   display: flex;
@@ -1313,10 +1297,9 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 
-width: 12rem;
-    height: 45px;
+  width: 12rem;
+  height: 45px;
   background-color: var(--Dominant-color);
   font-size: 1.3rem;
   color: white;
@@ -1336,8 +1319,6 @@ width: 12rem;
   font-weight: 600;
   text-decoration: none;
 }
-
-
 
 @keyframes floatSideToSide {
   0% {
