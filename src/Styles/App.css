@@ -251,6 +251,18 @@
     align-items: center;
     margin: 0;
   }
+  button.readMoreButton {
+    background-color: var(--Dominant-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    width: 50%;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+  }
 
   #developerImageOnMobile {
     width: 345px;

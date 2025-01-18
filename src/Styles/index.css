@@ -414,6 +414,80 @@ button.ResumeBtn {
   padding: 40px 0;
 }
 
+.readMoreButton {
+  background-color: var(--Dominant-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+.readMoreButton:hover {
+  background-color: black;
+  color: red;
+  font-weight: 700;
+  transform: scale(1.05);
+}
+
+.aboutMeContainer2 {
+  /* height: 0;
+  opacity: 0; */
+  /* overflow: hidden; */
+  transition: max-height 400ms ease-in, opacity 400ms ease-in-out;
+}
+
+.aboutMeContainer2.expanded {
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+  animation: puff-in-ver 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes puff-in-ver {
+  0% {
+    transform: scaleY(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+.aboutMeContainer2.collapsed {
+  opacity: 0;
+  transform: scale(2);
+  filter: blur(4px);
+  overflow: hidden;
+  transition: transform 0.9s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.9s ease-out;
+  animation: puff-out-top 0.9s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+  animation-delay: 0.2s;
+}
+
+
+
+@keyframes puff-out-top {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 0;
+    filter: blur(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    transform-origin: 50% 0;
+    filter: blur(4px);
+    opacity: 0;
+  }
+}
+
 .introduction {
   display: flex;
   justify-content: center;
@@ -421,7 +495,7 @@ button.ResumeBtn {
 }
 
 .introHeaderText {
-  font-weight: 400;
+  font-weight: 900;
   margin: 0 0 10px 0;
 }
 

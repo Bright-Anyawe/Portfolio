@@ -41,9 +41,9 @@ export const Greeting = () => {
             <button className="ResumeBtn">
               <p>
                 <a
-                  download="Anyawe_Bright_Resume.pdf"
+                  download="Web_developer.pdf"
                   className="resumeLink"
-                  href="/Junior Developer(FrontEnd~+).pdf"
+                  href="/public/Web_Developer[Fixed].pdf"
                 >
                   Resume
                 </a>

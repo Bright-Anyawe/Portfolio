@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 export const PersonalInfo = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const toggleReadMore = () => {
+    setShowMore((prev) => !prev);
+  };
+
   return (
     <>
       <section
@@ -22,7 +30,7 @@ export const PersonalInfo = () => {
           </figure>
 
           <div className="aboutMeContainer">
-            <h2 className="introHeaderText">Introduction</h2>
+            <h1 className="introHeaderText">Introduction</h1>
             <p className="aboutMeEl">
               My name is <span className="identity">Anyawe Bright</span>, and I
               am a passionate front-end developer based in Ghana. I am dedicated
@@ -32,25 +40,41 @@ export const PersonalInfo = () => {
               fascinated by how modern software and games function.
             </p>
 
-            <p className="aboutMeEl2">
-              This curiosity drove me to ask questions, conduct research, and
-              leverage available resources, ultimately leading me to pursue a
-              career in web development. I have worked on various projects,
-              including a Todo List app, an E-commerce website, and a CV Builder
-              application. Each project has honed my technical abilities and
-              strengthened my commitment to building innovative, user-friendly
-              solutions. I am eager to contribute to impactful development
-              projects and grow within the industry.
-            </p>
+            <button
+              className="readMoreButton"
+              onClick={toggleReadMore}
+              aria-expanded={showMore}
+            >
+              {showMore ? "Read Less" : "Read More"}
+            </button>
 
-            <p className="aboutGoals">
-              I aim to master JavaScript to craft unique, creative, and
-              innovative solutions that address real-world challenges through
-              code. If you&apos;re intrigued by my portfolio or seeking an
-              enthusiastic developer to join your team, I&apos;m open to
-              opportunities and ready to contribute.
-            </p>
-<br />
+            {showMore ? (
+              <div className={`aboutMeContainer2 ${showMore ? "expanded" : "collapsed"}`}>
+                <p className="aboutMeEl2">
+                  This curiosity drove me to ask questions, conduct research,
+                  and leverage available resources, ultimately leading me to
+                  pursue a career in web development. I have worked on various
+                  projects, including a Todo List app, an E-commerce website,
+                  and a CV Builder application. Each project has honed my
+                  technical abilities and strengthened my commitment to building
+                  innovative, user-friendly solutions. I am eager to contribute
+                  to impactful development projects and grow within the
+                  industry.
+                </p>
+
+                <p className="aboutGoals">
+                  I aim to master JavaScript to craft unique, creative, and
+                  innovative solutions that address real-world challenges
+                  through code. If you&apos;re intrigued by my portfolio or
+                  seeking an enthusiastic developer to join your team, I&apos;m
+                  open to opportunities and ready to contribute.
+                </p>
+              </div>
+            ) : (
+              ""
+            )}
+
+            <br />
             <div className="langTechToolContainer">
               <h3>Language, Technologies & Tools</h3>
 
